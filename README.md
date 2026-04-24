@@ -209,15 +209,8 @@ El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Stu
 
    1. ## <a name="_heading=h.cef4nj5tp5jz"></a> **Startup Profile**
 
-[3\.	Capítulo III: Requirements Specification	5](#capítulo-iii:-requirements-specification)
 
-[3.1	User Stories	5](#user-stories)
-
-[3.2	Impact Mapping	5](#impact-mapping)
-
-[3.3	Product Backlog	5](#product-backlog)
-
-      1. ### <a name="_heading=h.so7ggpcn42dv"></a>**Perfiles de integrantes del equipo**
+### <a name="_heading=h.so7ggpcn42dv"></a>**Perfiles de integrantes del equipo**
 
 |Integrantes|Descripción|Conocimientos|Foto|
 | :- | :- | :- | :-: |

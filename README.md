@@ -500,61 +500,208 @@ Datos psicográficos:
 | 40 | **US40** | Etiquetas ARIA | Como Developer, deseo asegurar que todos los componentes tengan etiquetas ARIA para cumplir con los estándares a11y. | 2 | 4 |
 
 
-4. # **Capítulo IV: Product Design** {#capítulo-iv:-product-design}
+# **Capítulo IV: Product Design**
 
-   1. ## **Style Guidelines** {#style-guidelines}
+En esta sección se aborda el planteamiento de la propuesta de Software Architecture & Design, incluyendo Domain-Driven Software Architecture, Object-Oriented Software Design, así como UX/UI Design para la experiencia web de RouteStock. Para ello, se ha tomado como base el conjunto de User Stories identificados en el capítulo anterior, así como el Impact Map, buscando satisfacer las necesidades de nuestros comerciantes y consumidores.
 
-      1. ### **General Style Guidelines** {#general-style-guidelines}
+## **4.1. Style Guidelines**
 
-      2. ### **Web Style Guidelines** {#web-style-guidelines}
+Esta sección sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo de desarrollo de RouteStock. Esto con el fin de mantener una presentación visual consistente y enfocada en la accesibilidad. Hemos tomado como referencia el **Material Design System**, adaptándolo a las necesidades específicas de nuestra plataforma.
 
-   2. ## **Information Architecture** {#information-architecture}
+### **4.1.1. General Style Guidelines**
 
-      1. ### **Organization Systems** {#organization-systems}
+Para RouteStock, hemos definido directrices visuales y de comunicación que transmitan confianza, cercanía y eficiencia, asegurando que tanto dueños de bodegas como consumidores urbanos se sientan cómodos utilizando la plataforma.
 
-      2. ### **Labeling Systems** {#labeling-systems}
+* **Branding & Tono de Comunicación:** El tono de comunicación de RouteStock se define como **Formal/Casual** y **Entusiasta/Sereno**. Es *formal* en cuanto a la seguridad de los datos y las transacciones, pero *casual* y *entusiasta* al invitar a los comercios locales a digitalizarse sin miedo. Evitamos el uso de jerga tecnológica compleja para no intimidar al Segmento 1 (Comerciantes/Ambulantes).
+* **Colors:** \* *Primary Color:* Verde esmeralda o tonos de verde hoja (representa crecimiento, frescura de productos y movimiento libre, ideal para reflejar la naturaleza de los vendedores ambulantes y el comercio de barrio).
+   * *Secondary Color:* Naranja cálido (representa cercanía, acción y dinamismo, utilizado para *Call-to-Actions* como "Agregar al carrito" o "Solicitar Delivery").
+   * *Background & Surface:* Tonos claros (blanco y gris muy suave) para reducir la fatiga visual y resaltar las fotografías de los productos.
+* **Typography:** Se utilizará una fuente *Sans-serif* moderna y altamente legible, como **Roboto** o **Inter**. Se prioriza el peso *Bold* para jerarquías altas (nombres de comercios, precios) y *Regular* para descripciones.
+* **Spacing & Grid:** Se aplicará un sistema de cuadrícula base de 8pt (8-Point Grid System) para asegurar un ritmo vertical y horizontal predecible y consistente en todos los componentes.
 
-      3. ### **SEO Tags and Meta Tags** {#seo-tags-and-meta-tags}
 
-      4. ### **Searching Systems** {#searching-systems}
+### **4.1.2 Web Style Guidelines**
 
-      5. ### **Navigation Systems** {#navigation-systems}
 
-   3. ## **Landing Page UI Design** {#landing-page-ui-design}
+Para las interfaces de RouteStock (Landing Page y Web Application), se aplican estándares de *responsive web design* (Mobile First), dado que la gran mayoría de nuestros usuarios (especialmente los vendedores ambulantes y consumidores en movimiento) accederán vía smartphone.
 
-      1. ### **Landing Page Wireframe** {#landing-page-wireframe}
+* **Componentes Interactivos:** Los botones y áreas táctiles tendrán un tamaño mínimo de 48x48 dp para garantizar la accesibilidad táctil, cumpliendo con estándares de diseño inclusivo.
+* **Visual Feedback:** Todo elemento interactivo (tarjetas de productos, botones de añadir al carrito) tendrá estados visuales definidos (*Hover*, *Active*, *Disabled*, *Focus*) para guiar al usuario.
+* **Formularios Guiados:** Para el registro de comerciantes, los inputs serán grandes, con etiquetas claras flotantes y mensajes de error descriptivos en tiempo real (evitando clics innecesarios).
 
-      2. ### **Landing Page Mock-up** {#landing-page-mock-up}
 
-   4. ## **Web Applications UX/UI Design** {#web-applications-ux/ui-design}
 
-      1. ### **Web Applications Wireframes** {#web-applications-wireframes}
 
-      2. ### **Web Applications Wireflow Diagrams** {#web-applications-wireflow-diagrams}
+## **4.2 Information Architecture**
 
-      3. ### **Web Applications Mock-ups** {#web-applications-mock-ups}
+En esta sección se detallan las decisiones y sustentos que dirigen la organización del contenido en la experiencia web de RouteStock. El objetivo es que los consumidores encuentren productos rápidamente y que los comerciantes puedan gestionar su inventario sin fricciones.
 
-      4. ### **Web Applications User Flow Diagrams** {#web-applications-user-flow-diagrams}
+### **4.2.1. Organization Systems**
 
-   5. ## **Web Applications Prototyping** {#web-applications-prototyping}
 
-   6. ## **Domain-Driven Software Architecture** {#domain-driven-software-architecture}
+* **Organización Visual:** En la Web Application aplicaremos una **organización jerárquica (visual hierarchy)** para el Landing Page (Destacando primero la propuesta de valor y luego los *Call to Action*). Para la vista del consumidor, usaremos una jerarquía basada en tarjetas, priorizando la foto del producto, precio y distancia del local. En el perfil del comerciante, usaremos **organización secuencial** para la subida de productos (paso a paso: Foto \-\> Nombre \-\> Precio \-\> Stock).
+* **Esquemas de Categorización:** \* *Por Tópicos (Categorías de productos):* Abarrotes, Bebidas, Limpieza, Cuidado Personal, etc.
+   * *Por Audiencia:* La arquitectura divide la experiencia principal en dos flujos claros desde el inicio: "Para Consumidores" y "Para Negocios".
 
-      1. ### **Design-Level Event Storming** {#design-level-event-storming}
 
-      2. ### **Software Architecture Context Diagram** {#software-architecture-context-diagram}
+### **4.2.2 Labeling Systems**
 
-      3. ### **Software Architecture Container Diagrams** {#software-architecture-container-diagrams}
+Buscando la simplicidad cognitiva para nuestros User Personas (como Carlos Quispe, que tiene poca adaptabilidad tecnológica), las etiquetas utilizarán el lenguaje ubicuo (Ubiquitous Language) definido en el proyecto.
 
-      4. ### **Software Architecture Component Diagrams** {#software-architecture-component-diagrams}
+* Para el consumidor: "Inicio", "Buscar", "Mi Carrito", "Mis Pedidos", "Perfil".
+* Para el comerciante: "Mi Negocio", "Inventario", "Pedidos Entrantes", "Historial".
+* Se evitarán términos técnicos (ej. en lugar de "Dashboard de analíticas", se usará "Mis Ventas").
 
-   7. ## **Software Object-Oriented Design** {#software-object-oriented-design}
+### **4.2.3 SEO Tags and Meta Tags**
 
-      1. ### **Class Diagrams** {#class-diagrams}
+Para asegurar el posicionamiento orgánico del Landing Page y la Web App de RouteStock, se implementarán los siguientes Meta Tags:
 
-   8. ## **Database Design** {#database-design}
+* **Title:** RouteStock | Encuentra productos en bodegas y comercios cercanos al instante
+* **Meta Description:** Conecta con bodegas, comercios locales y vendedores ambulantes en tiempo real. Busca, compara y pide productos cerca de ti con RouteStock. Digitaliza tu negocio hoy.
+* **Meta Keywords:** bodegas cercanas, delivery local, vendedores ambulantes, comprar abarrotes, RouteStock, digitalización de comercios, Perú.
+* **Meta Author:** SmartNeighbor (RouteStock Team)
 
-      1. ### **Database Diagrams** {#database-diagrams}
+### **4.2.4 Searching Systems**
+
+
+El sistema de búsqueda es el *core* para el consumidor (Segmento 2).
+
+* **Opciones de Búsqueda:** Barra de búsqueda global persistente en la parte superior con *autocomplete* y sugerencias basadas en el historial local.
+* **Filtros:** Los usuarios podrán filtrar por: "Distancia (Menos de 1km, 3km)", "Disponibilidad (En Stock)", "Método de entrega (Delivery / Recojo)" y "Calificación del comercio".
+* **Visualización de Resultados:** Tras una búsqueda, los datos lucirán como una cuadrícula (grid) de tarjetas de productos. Cada tarjeta mostrará el nombre del local, si es bodega o ambulante, y un indicador semafórico de disponibilidad (Verde: En stock, Rojo: Agotado).
+
+### **4.2.5 Navigation Systems**
+
+
+* **Navegación Global:** Para la versión móvil (Mobile Web Browser), se utilizará un *Bottom Navigation Bar* con iconos representativos (Home, Buscar, Pedidos, Perfil) para fácil acceso con el pulgar. En versión Desktop, se usará un *Top Navigation Bar*.
+* **Navegación Contextual:** Enlaces rápidos dentro del detalle de un producto que dirijan a "Ver más productos de este comercio", fomentando la compra cruzada y beneficiando al vendedor local.
+
+## **4.3. Landing Page UI Design**
+
+En esta sección se presenta la propuesta de interfaz de usuario para el Landing Page de RouteStock. La traducción de las decisiones de diseño y arquitectura de información se refleja en una disposición de contenidos que prioriza la captación de los dos segmentos objetivo: comerciantes y consumidores. Se ha buscado un diseño limpio que destaque la facilidad de uso y la cercanía del servicio, utilizando los componentes de Material Design adaptados a nuestra identidad visual.
+
+
+### **4.3.1. Landing Page Wireframe**
+
+
+Se han elaborado los wireframes para **Desktop Web Browser** y **Mobile Web Browser**, asegurando una estructura lógica que guíe al visitante hacia el registro. En estos esquemas se evidencia la aplicación de principios de diseño inclusivo y una jerarquía visual clara que separa los beneficios para comerciantes y consumidores.
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094216222773418/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.019.png?ex=69ec4523&is=69eaf3a3&hm=f7bfdab8b2899b2b3037cf8ee0bf12e9c79cae10e9da753f87745f7ed15be232&=&format=webp&quality=lossless)
+
+
+### **4.3.2 Landing Page Mock-up**
+
+
+Los mock-ups finales aplican el sistema de diseño basado en **Material Design**. Se utiliza el verde esmeralda como color primario para transmitir confianza y el naranja para los botones de llamado a la acción (*Call-to-Action*), manteniendo la consistencia visual necesaria para redirigir a los usuarios a la aplicación web
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094205883945030/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.020.png?ex=69ec4521&is=69eaf3a1&hm=9f273c47c00c7e2f302960af363083493b64e42e9861ab8f447e4fdf3a50bce9&=&format=webp&quality=lossless)
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094189874417664/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.021.png?ex=69ec451d&is=69eaf39d&hm=8277c0f001b5c3610529706d39bed5308791726c60570e213da290c314fc1131&=&format=webp&quality=lossless)
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094177379319868/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.022.png?ex=69ec451a&is=69eaf39a&hm=b5f1a89e66a30d0ad830cb81478d046175ec675d55042ec4e66bb812c118fe95&=&format=webp&quality=lossless)
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094163315949638/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.023.png?ex=69ec4517&is=69eaf397&hm=93b4552ea94ad8549e4beed63c15124f5e412b856c6c7e2fef6f3733983f6b20&=&format=webp&quality=lossless)
+
+Link LandingPage : [https://upc-pre-202610-smartneighbo.github.io/LandingPage-Route-Stock/](https://upc-pre-202610-smartneighbo.github.io/LandingPage-Route-Stock/)
+
+
+
+
+
+
+
+
+4. ## **4.4 Web Applications UX/UI Design**
+
+
+Esta sección detalla la propuesta visual y de interacción para la aplicación web integrada con la API RESTful.
+
+
+### **4.4.1 Web Applications Wireframes**
+
+
+Se presentan los esquemas de baja fidelidad para las vistas principales de la aplicación web, enfocándose en la funcionalidad de búsqueda de productos y gestión de inventario. El diseño garantiza que los elementos de navegación sean accesibles y que la información de disponibilidad sea prioritaria.
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094148207939594/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.024.png?ex=69ec4513&is=69eaf393&hm=d73bac6f664ef0924cb0d8e6f8e2bfe49a3a3c22b3fc6f439dc2d01ffdf5c75a&=&format=webp&quality=lossless)
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094133821739088/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.025.png?ex=69ec4510&is=69eaf390&hm=63bc55b02114d3e55375bf7779c57640906d8359e2cce1282f76de65003572ad&=&format=webp&quality=lossless)
+
+
+### **4.4.2Web Applications Wireflow Diagrams**
+
+
+Para cada objetivo de usuario, se presenta el flujo de pantallas vinculadas. Se describe el paso a paso de las interacciones, mostrando cómo cambian los estados de la interfaz web ante las acciones del usuario.
+
+* **User Goal:** Consumidor busca un producto urgente y visualiza disponibilidad en tiempo real.
+* **User Goal:** Comerciante registra un producto nuevo en su inventario digital.
+
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094122606035045/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.026.png?ex=69ec450d&is=69eaf38d&hm=badcc2e9a5bf28733204e5261e586a49e4c078ff813dc203f436cf483984c903&=&format=webp&quality=lossless)
+
+### **4.4.3 Web Applications Mock-ups**
+
+
+
+Los mock-ups de alta fidelidad para la aplicación web utilizan componentes de **Angular Material**. Se evidencia el cumplimiento de las guías de estilo para web interfaces responsivas, asegurando que la experiencia sea fluida tanto en computadoras de escritorio como en navegadores de dispositivos móviles.
+
+
+
+### **4.4.4 Web Applications User Flow Diagrams**
+
+
+
+Se presentan los diagramas de flujo que incluyen los mock-ups de las vistas finales, trazando tanto la ruta esperada (*happy path*) como las rutas alternativas ante errores o falta de stock. Cada diagrama incluye la redacción del objetivo del usuario y la explicación de las condiciones especificadas.
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094109330931785/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.027.png?ex=69ec450a&is=69eaf38a&hm=5db37b3e136cc3e3faab17707627f550a19679199827ee84bd67998153215423&=&format=webp&quality=lossless)
+
+## **4.5 Web Applications Prototyping**
+
+## **4.6Domain-Driven Software Architecture**
+
+### **4.6.1Design-Level Event Storming**
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094102385426492/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.028.png?ex=69ec4508&is=69eaf388&hm=2271b60bd58aa4658dbcde3215fd4600c8cc0941a8ba2be2bdf25078e2eb9dd3&=&format=webp&quality=lossless)
+<br>Link al [canvas](https://miro.com/app/board/uXjVHdA7RQY=/?share_link_id=529420837086)
+
+
+
+### **4.6.2Software Architecture Context Diagram**
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094081124237452/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.029.png?ex=69ec4503&is=69eaf383&hm=779cc9c6c5098f60306d4143b4c741962e8fbc083a8f87bac2116dc784534f56&=&format=webp&quality=lossless)
+
+
+
+Enlace para acceder al Diagram: [Context Diagram](https://www.plantuml.com/plantuml/uml/bPFFJYCv4CRl_HIrEGK9aikUzaH88lueG9PEXFOKLRihZRLks-i_G5ZDmym3p6748-J5fce2wS1bD3TNsz_dhtvTFeq9GygjAVxGLfbS4poavEDVms70fq6ZqqEkSgIWd4raqq2vTkWDMj6Sn5GRNGt7VvxCvTFoUZPiCIOA_6arPWLgIs7WnR-OZVwvNIvMzvUBYzLiUZwzcVIFYYBfP0XAjqvF60X6GJteH2fbBlOECD7O16pX1EvSJbGcf_ujYZc5w6oV8t4-ZHpm67hZhkfnEScq_Uw0-wfSJGqUmzjn1yOfDE3WaMnDjGk0RPMD20UzeyxSnjngtXRlVI7MovWni4yE5Le7_sK2HgKGV71rLib5K7mJxqKnBCeDesbNq-VKRvnh35sZZ-npBWM1L32QNuhrF3Zl9AH5QCZzJAfVKEdjguKDgErNexAHjY3aX54MP5FW1W-lEdFPrXWs_I3Keb1ZymvXxmZ-Bm2W8zr_echaFP-wfmfuPRJ2n3aarSWsp2V041ORJwKAsYVvVid8mXfVWCMG8zO8d1uE_alaq1r9BZq612qwL8anoYuOrXbCk7QXbJu-HKElxxW9wM1QBjRPlDCgVT2sWJFd4cUxmaTyOwWeehYQxMl3VGWbIurZhfo7dhsp1CP5HbTxnsc4uozIJAf-pPiLHfBfUblAVTURyk-PB4QcHKKMWGywiOIycvIu7pvUTbF2IwfrBJaO2KzZGZaiLtyfYZio7oTy_uUMk-Rq0Nsv_cAnc9Ui5M77_FTqxsSxv5FxkFs6Z2sGqXNjUXFPLNbxCppKxZK7d6P4GZogy54xEHj_LdLFu_t1cOIGAwrGteECqcxc3pEVagrpQtu0)
+
+### **4.6.3Software Architecture Container Diagrams**
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094076196192287/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.030.png?ex=69ec4502&is=69eaf382&hm=ab941486b52ba45397e71465891ab659e11db710d98ec67cf9ce19884586a28a&=&format=webp&quality=lossless)
+
+
+
+Enlace para acceder al Diagram: [Container Diagram](https://www.plantuml.com/plantuml/uml/bPFFJYCv4CRl_HIrEGK9aikUzaH88lueG9PEXFOKLRihZRLks-i_G5ZDmym3p6748-J5fce2wS1bD3TNsz_dhtvTFeq9GygjAVxGLfbS4poavEDVms70fq6ZqqEkSgIWd4raqq2vTkWDMj6Sn5GRNGt7VvxCvTFoUZPiCIOA_6arPWLgIs7WnR-OZVwvNIvMzvUBYzLiUZwzcVIFYYBfP0XAjqvF60X6GJteH2fbBlOECD7O16pX1EvSJbGcf_ujYZc5w6oV8t4-ZHpm67hZhkfnEScq_Uw0-wfSJGqUmzjn1yOfDE3WaMnDjGk0RPMD20UzeyxSnjngtXRlVI7MovWni4yE5Le7_sK2HgKGV71rLib5K7mJxqKnBCeDesbNq-VKRvnh35sZZ-npBWM1L32QNuhrF3Zl9AH5QCZzJAfVKEdjguKDgErNexAHjY3aX54MP5FW1W-lEdFPrXWs_I3Keb1ZymvXxmZ-Bm2W8zr_echaFP-wfmfuPRJ2n3aarSWsp2V041ORJwKAsYVvVid8mXfVWCMG8zO8d1uE_alaq1r9BZq612qwL8anoYuOrXbCk7QXbJu-HKElxxW9wM1QBjRPlDCgVT2sWJFd4cUxmaTyOwWeehYQxMl3VGWbIurZhfo7dhsp1CP5HbTxnsc4uozIJAf-pPiLHfBfUblAVTURyk-PB4QcHKKMWGywiOIycvIu7pvUTbF2IwfrBJaO2KzZGZaiLtyfYZio7oTy_uUMk-Rq0Nsv_cAnc9Ui5M77_FTqxsSxv5FxkFs6Z2sGqXNjUXFPLNbxCppKxZK7d6P4GZogy54xEHj_LdLFu_t1cOIGAwrGteECqcxc3pCNfsJht9eV)
+
+### **4.6.4 Software Architecture Component Diagrams**
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094060035538944/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.031.png?ex=69ec44fe&is=69eaf37e&hm=a0daf19206c7dbb9244d344f24436b859db3eb078b4caa35c90813c54a9f839d&=&format=webp&quality=lossless)
+
+Enlace para acceder al Diagram: [Component Diagrams 1](https://www.plantuml.com/plantuml/uml/fPHDRlis4CNtEiNKAmUeuqrNNVqTnqrIvCEm70HT6IDo8XEWI7L89asA7gcB8aVmnKhAaEL8JbkWW1SU4lERfpTF-kOyiW-LphvJHkWW2RRUr-x7wPJnzRnKVXkAu8Y5DPwCFnUscjOQJUgPE2-rAgRp7oRBTFHuTpkjq7dYUBIPswgs9lNKYP_TpdvvU5nldcxMrvlRnTNY_d9ybcLUUKsGssV_YammOx5LdeGFiJWGu59XoLZ119weW5bTQoNGAsjW_1CtocHaBOcTDUCeaLWeZCVVmsZULQDONWRQ_ML14XHMKebWuILsaxGCM1KXFGUTZyuwc76XKl4wiGv5GZswWAmi12xGMFWrH6Pm0g5cAuFmre4W5l7E9M0MkpqgGxnP_ER7MAiLEHyvgqM-VWuQPikRXCrhLgQ42sjzAfTi1Ja47N-xZr89JE8DbLOes-DUs60ayjlubOfeKkpkspM1cIc3HXwTmUyP07GcZp7uxQ6AlRDOTzT9IziR_rwHIq04qi1KAkVP0e4oIgZ6NaTExJvC-XlsHYKNUYETjqp7C_Dq07TeiAGg7dqvVqbSAK-06exstKf1XZT0uGDgzHuB5rh76eqlaPSKdH14oEAJ2ylzCY5lRlwBdYuo-ppmYK107MzBijgAHg98NWtbM9R4nseUqi6_BqKZ2AOzDJhXg0ogKh6XMKrDKibJws0R_ATrhDB1b-Fk0YMlqpGE7XEQZEVchQfz7FYE4fCZJ3MoJuwacNzasOhqvzUqdxsyMsMRAcmZbKPVhzVBFB86e7wYEazE1Q2FwbRtVoLrd66aBhxuIlmJPP245JN1QPVPx-sfxxus2_Eo-xE9XoGZ56fgUd_E7-wdnu2-aGE2nAHTacwTFOtfF_s04meb3abb4ggWpfkJpCwBFdBEX97I6ATzPyufIXVs0QLjxwLwWCc-aP6Xqdy3)
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094050455621755/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.032.png?ex=69ec44fc&is=69eaf37c&hm=1cbd8a3e1a63f95fb03df249d59e71a420268e1916d34308e166e2de9560285b&=&format=webp&quality=lossless)
+
+Enlace para acceder al Diagram:[Component Diagrams 2](https://www.plantuml.com/plantuml/uml/ZLJ1RYCt3BtxAzYS760JNthgQHtRoAPmDcd6YqLF0KUY9q8rqfIIacQBVam_eAVUUisFbL8oOoUpQ-nX097GUuzyvEXzYCWnjNRoWt7A9arm5sCNVfhD61zE6nFlKfq2iV8kaekdohUppgBBc9CGjJNrRF7ZoNLEVRfSpreCaLXIjmlVTjvbJ9Vv9-lvhrUVDhUVBpOVRjUhyzN7vVHuCeacMeBAR-C3Ci6SrPs9f6AIO620fS66iOKJk5bLcssoCB--WEaPgj_8QQ5PI7be7F7jweyuVQ1wtdNluEWprI0dQnH6uzsHfEQkIHOv7o-a9TxY5v3xe0aiWhGMSUkvnTEZupUiZVUDfKliWc3FIm0vohLaEhb3xD3cypbvwnLQymMLUVhNmIDmYXXUiIxhmgj5iiP00bk-73F5vMFroxfKR5jKv12Yrpw0bKyWFdFjDtxcazF8ZrFip0s5ACXziqwWwjYu1iwyZqV7yES407OMJp75kuhutYZAcXB1SrYAsSUMzaBs4q5G0ZPgw58IdeUkDK4A2TcKQjye1hb9EyagXmSqhzah2WXCZGcHVHPJCQ7TLtFKU2LgG63SlQXyIvjGDcrFlCJVeLu__HT-JwGnPBcElKugYbxd6L8z6D6GR_ZfxwqankAUDV5E-og7tsEsOdgcVmVAkwtXTh1Thg3sfIJIHd-jPKtMt1C_xeINBva3sWkqAbaK1Tz5quhLptkSbOIKgIdz_JMPt90T_hlNkxHozq__bEerEMNGKiZKFrTN7sSVDflhIWZsqMKlHl2yybdMzZC-p57cEIBPJUWW-is05apYGFOy91knj_WWnTZjHG_F1duL-ygslLTXJLH6hDZKkn-gK2pF5Y_WmRN3QELROZM6zuQDyNtT_RAFe8DRXvMBQoFmoAVTApkiNxzp_GfgB2ozTPFtv7HgxVy0)
+
+## **4.7 Software Object-Oriented Design**
+
+### **4.7.1 Class Diagrams**
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094041769218078/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.033.png?ex=69ec44fa&is=69eaf37a&hm=c4b150dea8b10b36a90f4fa12c3349b63ded002a8869920f3ae0631bc84b76d5&=&format=webp&quality=lossless)
+
+## **4.8 Database Design**
+
+### **4.8.1 Database Diagrams**
+
+![](https://media.discordapp.net/attachments/610911183339388978/1497094032445407283/Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.034.png?ex=69ec44f7&is=69eaf377&hm=653d943e54024bdac57f0f322aa9374d3dbe80d47a36ab3a378e64492a1c7d48&=&format=webp&quality=lossless)
 
 5. # **Capítulo V: Product Implementation, Validation & Deployment** {#capítulo-v:-product-implementation,-validation-&-deployment}
 

@@ -459,33 +459,90 @@ Datos psicográficos:
 
       1. ### **Database Diagrams** {#database-diagrams}
 
-5. # **Capítulo V: Product Implementation, Validation & Deployment** {#capítulo-v:-product-implementation,-validation-&-deployment}
+# **Capítulo V: Product Implementation, Validation & Deployment**
 
-   1. ## **Software Configuration Management** {#software-configuration-management}
+## **5.1. Software Configuration Management**
 
-      1. ### **Software Development Environment Configuration** {#software-development-environment-configuration}
+### **5.1.1. Software Development Environment Configuration**
 
-      2. ### **Source Code Management** {#source-code-management}
 
-      3. ### **Source Code Style Guide & Conventions** {#source-code-style-guide-&-conventions}
 
-      4. ### **Software Deployment Configuration** {#software-deployment-configuration}
+Para el ciclo de vida del producto se han definido las siguientes herramientas:
 
-   2. ## **Landing Page, Services & Applications Implementation** {#landing-page,-services-&-applications-implementation}
+* **IDEs:** Visual Studio Code (Frontend/Landing) e IntelliJ IDEA (Backend/Spring Boot).
+* **Frameworks:** Angular (Web Apps) y Spring Boot (Web Services).
+* **Lenguajes:** TypeScript, Java 17+, HTML5, CSS3.
+* **Diseño:** Figma para Mock-ups y LucidChart para diagramas C4 y UML.
 
-   3. ## **Validation Interviews** {#validation-interviews}
 
-      1. ### **Diseño de Entrevistas** {#diseño-de-entrevistas-1}
+### **5.1.2 Source Code Management**
 
-      2. ### **Registro de Entrevistas** {#registro-de-entrevistas-1}
 
-      3. ### **Evaluaciones según heurísticas** {#evaluaciones-según-heurísticas}
+Utilizaremos **GitHub** como repositorio central. El flujo de trabajo será **GitFlow**:
 
-   4. ## **Video About-the-Product** {#video-about-the-product}
+* **Ramas estables:** main (producción) y develop (integración).
+* **Ramas temporales:** feature/US-xx para nuevas funcionalidades y hotfix/nombre para errores críticos.
+* **Commits:** Se aplicará el estándar de **Conventional Commits** (ej: feat: add landing hero section).
 
-# **Conclusiones** {#conclusiones}
+### **5.1.3 Source Code Style Guide & Conventions**
 
-# **Bibliografía** {#bibliografía}
+Se adoptarán las guías de estilo de Google para Java y TypeScript. Todo el código, incluyendo variables, métodos y comentarios, se redactará exclusivamente en **inglés**.
 
-# **Anexos** {#anexos}
+### **5.1.4 Software Deployment Configuration**
 
+## **5.2 Landing Page, Services & Applications Implementation**
+
+
+
+## **5.3 Validation Interviews**
+
+### **5.3.1 Diseño de Entrevistas**
+
+### **5.3.2 Registro de Entrevistas**
+
+### **5.3.3 Evaluaciones según heurísticas**
+
+## **5.4 Video About-the-Product**
+
+[https://drive.google.com/file/d/1dDMOfWd0L51dNEq-blJX\_mCJdQ09oQgg/view?usp=drive\_link](https://drive.google.com/file/d/1dDMOfWd0L51dNEq-blJX_mCJdQ09oQgg/view?usp=drive_link)
+
+# **Conclusiones**
+
+# **Bibliografía**
+
+* Laudon, K. C., & Laudon, J. P. (2020). Management information systems: Managing the digital firm (16th ed.). Pearson Education.
+* Rogers, D. L. (2016). The digital transformation playbook: Rethink your business for the digital age. Columbia University Press.
+* Norman, D. A. (2013). The design of everyday things (Revised and expanded ed.). Basic Books.
+* Osterwalder, A., & Pigneur, Y. (2010). Business model generation: A handbook for visionaries, game changers, and challengers. John Wiley & Sons.
+* Ries, E. (2011). The lean startup: How today's entrepreneurs use continuous innovation to create radically successful businesses. Crown Business.
+
+# **Anexos**
+
+*
+* [https://miro.com/app/board/uXjVGh\_xhSc=/?share\_link\_id=823723323948](https://miro.com/app/board/uXjVGh_xhSc=/?share_link_id=823723323948)
+*
+* [https://view.genially.com/69db033147694ae4309767e8](https://view.genially.com/69db033147694ae4309767e8)
+*
+* **Segmento objetivo 1:**
+* [https://drive.google.com/file/d/1rRRBM4kAXra5ckKQat0WHiw2x7E5E2\_p/view?usp=sharing](https://drive.google.com/file/d/1rRRBM4kAXra5ckKQat0WHiw2x7E5E2_p/view?usp=sharing)
+*
+* [https://drive.google.com/file/d/1evei0ttj2NszPiKT8c6TsNiX9SuRosuh/view?usp=sharing](https://drive.google.com/file/d/1evei0ttj2NszPiKT8c6TsNiX9SuRosuh/view?usp=sharing)
+*
+* **Segmento objetivo 2:**
+* [https://drive.google.com/file/d/1TQy0i5YEE0kkls16JiiOqHTaD3IiYcKS/view?usp=sharing](https://drive.google.com/file/d/1TQy0i5YEE0kkls16JiiOqHTaD3IiYcKS/view?usp=sharing)
+*
+* [https://drive.google.com/file/d/1C9uoXvPkc1f3iWp36pOQLdnMXzS\_xw6-/view?usp=drive\_link](https://drive.google.com/file/d/1C9uoXvPkc1f3iWp36pOQLdnMXzS_xw6-/view?usp=drive_link)
+*
+
+* ### **Software Architecture Context Diagram**
+
+*
+   * Enlace para acceder al Diagram: [Context Diagram](https://www.plantuml.com/plantuml/uml/bPFFJYCv4CRl_HIrEGK9aikUzaH88lueG9PEXFOKLRihZRLks-i_G5ZDmym3p6748-J5fce2wS1bD3TNsz_dhtvTFeq9GygjAVxGLfbS4poavEDVms70fq6ZqqEkSgIWd4raqq2vTkWDMj6Sn5GRNGt7VvxCvTFoUZPiCIOA_6arPWLgIs7WnR-OZVwvNIvMzvUBYzLiUZwzcVIFYYBfP0XAjqvF60X6GJteH2fbBlOECD7O16pX1EvSJbGcf_ujYZc5w6oV8t4-ZHpm67hZhkfnEScq_Uw0-wfSJGqUmzjn1yOfDE3WaMnDjGk0RPMD20UzeyxSnjngtXRlVI7MovWni4yE5Le7_sK2HgKGV71rLib5K7mJxqKnBCeDesbNq-VKRvnh35sZZ-npBWM1L32QNuhrF3Zl9AH5QCZzJAfVKEdjguKDgErNexAHjY3aX54MP5FW1W-lEdFPrXWs_I3Keb1ZymvXxmZ-Bm2W8zr_echaFP-wfmfuPRJ2n3aarSWsp2V041ORJwKAsYVvVid8mXfVWCMG8zO8d1uE_alaq1r9BZq612qwL8anoYuOrXbCk7QXbJu-HKElxxW9wM1QBjRPlDCgVT2sWJFd4cUxmaTyOwWeehYQxMl3VGWbIurZhfo7dhsp1CP5HbTxnsc4uozIJAf-pPiLHfBfUblAVTURyk-PB4QcHKKMWGywiOIycvIu7pvUTbF2IwfrBJaO2KzZGZaiLtyfYZio7oTy_uUMk-Rq0Nsv_cAnc9Ui5M77_FTqxsSxv5FxkFs6Z2sGqXNjUXFPLNbxCppKxZK7d6P4GZogy54xEHj_LdLFu_t1cOIGAwrGteECqcxc3pEVagrpQtu0)
+* **Software Architecture Container Diagrams**
+   * Enlace para acceder al Diagram: [Container Diagram](https://www.plantuml.com/plantuml/uml/bPFFJYCv4CRl_HIrEGK9aikUzaH88lueG9PEXFOKLRihZRLks-i_G5ZDmym3p6748-J5fce2wS1bD3TNsz_dhtvTFeq9GygjAVxGLfbS4poavEDVms70fq6ZqqEkSgIWd4raqq2vTkWDMj6Sn5GRNGt7VvxCvTFoUZPiCIOA_6arPWLgIs7WnR-OZVwvNIvMzvUBYzLiUZwzcVIFYYBfP0XAjqvF60X6GJteH2fbBlOECD7O16pX1EvSJbGcf_ujYZc5w6oV8t4-ZHpm67hZhkfnEScq_Uw0-wfSJGqUmzjn1yOfDE3WaMnDjGk0RPMD20UzeyxSnjngtXRlVI7MovWni4yE5Le7_sK2HgKGV71rLib5K7mJxqKnBCeDesbNq-VKRvnh35sZZ-npBWM1L32QNuhrF3Zl9AH5QCZzJAfVKEdjguKDgErNexAHjY3aX54MP5FW1W-lEdFPrXWs_I3Keb1ZymvXxmZ-Bm2W8zr_echaFP-wfmfuPRJ2n3aarSWsp2V041ORJwKAsYVvVid8mXfVWCMG8zO8d1uE_alaq1r9BZq612qwL8anoYuOrXbCk7QXbJu-HKElxxW9wM1QBjRPlDCgVT2sWJFd4cUxmaTyOwWeehYQxMl3VGWbIurZhfo7dhsp1CP5HbTxnsc4uozIJAf-pPiLHfBfUblAVTURyk-PB4QcHKKMWGywiOIycvIu7pvUTbF2IwfrBJaO2KzZGZaiLtyfYZio7oTy_uUMk-Rq0Nsv_cAnc9Ui5M77_FTqxsSxv5FxkFs6Z2sGqXNjUXFPLNbxCppKxZK7d6P4GZogy54xEHj_LdLFu_t1cOIGAwrGteECqcxc3pCNfsJht9eV)
+*
+* **Software Architecture Component Diagrams**
+   * Enlace para acceder al Diagram: [Component Diagrams 1](https://www.plantuml.com/plantuml/uml/fPHDRlis4CNtEiNKAmUeuqrNNVqTnqrIvCEm70HT6IDo8XEWI7L89asA7gcB8aVmnKhAaEL8JbkWW1SU4lERfpTF-kOyiW-LphvJHkWW2RRUr-x7wPJnzRnKVXkAu8Y5DPwCFnUscjOQJUgPE2-rAgRp7oRBTFHuTpkjq7dYUBIPswgs9lNKYP_TpdvvU5nldcxMrvlRnTNY_d9ybcLUUKsGssV_YammOx5LdeGFiJWGu59XoLZ119weW5bTQoNGAsjW_1CtocHaBOcTDUCeaLWeZCVVmsZULQDONWRQ_ML14XHMKebWuILsaxGCM1KXFGUTZyuwc76XKl4wiGv5GZswWAmi12xGMFWrH6Pm0g5cAuFmre4W5l7E9M0MkpqgGxnP_ER7MAiLEHyvgqM-VWuQPikRXCrhLgQ42sjzAfTi1Ja47N-xZr89JE8DbLOes-DUs60ayjlubOfeKkpkspM1cIc3HXwTmUyP07GcZp7uxQ6AlRDOTzT9IziR_rwHIq04qi1KAkVP0e4oIgZ6NaTExJvC-XlsHYKNUYETjqp7C_Dq07TeiAGg7dqvVqbSAK-06exstKf1XZT0uGDgzHuB5rh76eqlaPSKdH14oEAJ2ylzCY5lRlwBdYuo-ppmYK107MzBijgAHg98NWtbM9R4nseUqi6_BqKZ2AOzDJhXg0ogKh6XMKrDKibJws0R_ATrhDB1b-Fk0YMlqpGE7XEQZEVchQfz7FYE4fCZJ3MoJuwacNzasOhqvzUqdxsyMsMRAcmZbKPVhzVBFB86e7wYEazE1Q2FwbRtVoLrd66aBhxuIlmJPP245JN1QPVPx-sfxxus2_Eo-xE9XoGZ56fgUd_E7-wdnu2-aGE2nAHTacwTFOtfF_s04meb3abb4ggWpfkJpCwBFdBEX97I6ATzPyufIXVs0QLjxwLwWCc-aP6Xqdy3)
+   * Enlace para acceder al Diagram:[Component Diagrams 2](https://www.plantuml.com/plantuml/uml/ZLJ1RYCt3BtxAzYS760JNthgQHtRoAPmDcd6YqLF0KUY9q8rqfIIacQBVam_eAVUUisFbL8oOoUpQ-nX097GUuzyvEXzYCWnjNRoWt7A9arm5sCNVfhD61zE6nFlKfq2iV8kaekdohUppgBBc9CGjJNrRF7ZoNLEVRfSpreCaLXIjmlVTjvbJ9Vv9-lvhrUVDhUVBpOVRjUhyzN7vVHuCeacMeBAR-C3Ci6SrPs9f6AIO620fS66iOKJk5bLcssoCB--WEaPgj_8QQ5PI7be7F7jweyuVQ1wtdNluEWprI0dQnH6uzsHfEQkIHOv7o-a9TxY5v3xe0aiWhGMSUkvnTEZupUiZVUDfKliWc3FIm0vohLaEhb3xD3cypbvwnLQymMLUVhNmIDmYXXUiIxhmgj5iiP00bk-73F5vMFroxfKR5jKv12Yrpw0bKyWFdFjDtxcazF8ZrFip0s5ACXziqwWwjYu1iwyZqV7yES407OMJp75kuhutYZAcXB1SrYAsSUMzaBs4q5G0ZPgw58IdeUkDK4A2TcKQjye1hb9EyagXmSqhzah2WXCZGcHVHPJCQ7TLtFKU2LgG63SlQXyIvjGDcrFlCJVeLu__HT-JwGnPBcElKugYbxd6L8z6D6GR_ZfxwqankAUDV5E-og7tsEsOdgcVmVAkwtXTh1Thg3sfIJIHd-jPKtMt1C_xeINBva3sWkqAbaK1Tz5quhLptkSbOIKgIdz_JMPt90T_hlNkxHozq__bEerEMNGKiZKFrTN7sSVDflhIWZsqMKlHl2yybdMzZC-p57cEIBPJUWW-is05apYGFOy91knj_WWnTZjHG_F1duL-ygslLTXJLH6hDZKkn-gK2pF5Y_WmRN3QELROZM6zuQDyNtT_RAFe8DRXvMBQoFmoAVTApkiNxzp_GfgB2ozTPFtv7HgxVy0)
+
+  

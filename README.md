@@ -319,7 +319,7 @@ Para los pequeños comercios, bodegas y vendedores ambulantes, la plataforma pue
 
       Este trabajo metodológico permitió establecer un marco claro para la validación temprana de la propuesta, orientando el desarrollo de RouteStock hacia necesidades reales del mercado, especialmente en relación con la búsqueda de productos cercanos y la digitalización de bodegas, comercios locales y vendedores ambulantes. De esta manera, el Lean UX Canvas se convierte en una herramienta fundamental dentro del enfoque iterativo, ágil y centrado en el usuario de SmartNeighbor, ya que permite alinear las decisiones de diseño, funcionalidad y modelo de negocio con objetivos concretos, medibles y sostenibles.
 
-Enlace para acceder al [Canvas](https://view.genially.com/69db033147694ae4309767e8)![](chapter1\img\LeanUxCanvasChapter1.png)
+Enlace para acceder al [Canvas](https://view.genially.com/69db033147694ae4309767e8)![](chapter1/img/LeanUxCanvasChapter1.png)
 
 1. ## <a name="_heading=h.u9rq93k9sjtu"></a> **Segmentos objetivo**
 

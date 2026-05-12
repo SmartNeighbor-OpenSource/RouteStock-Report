@@ -778,7 +778,7 @@ Matriz de responsabilidades asignadas durante el Sprint 1 para asegurar la efect
 
 *Enlace al tablero público:* (https://trello.com/invite/b/6a0388e35c3b484641b79d20/ATTIb8331aba1d4a877c9413dd1461ec144f6A5B46E0/routestock-agile-board)
 
-[Trellosprint1](https://cdn.discordapp.com/attachments/708833636480188436/1503886976280035469/image.png?ex=6a04fb64&is=6a03a9e4&hm=94df35125d74b6e7d84a1c503b96f5d9ee2e24cdc39cd770fdc8bc9baf03bb05&)
+![Trellosprint1](https://cdn.discordapp.com/attachments/708833636480188436/1503886976280035469/image.png?ex=6a04fb64&is=6a03a9e4&hm=94df35125d74b6e7d84a1c503b96f5d9ee2e24cdc39cd770fdc8bc9baf03bb05&)
 
 | Sprint # | Sprint 1 | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

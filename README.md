@@ -778,7 +778,7 @@ Matriz de responsabilidades asignadas durante el Sprint 1 para asegurar la efect
 
 *Enlace al tablero público:* (https://trello.com/invite/b/6a0388e35c3b484641b79d20/ATTIb8331aba1d4a877c9413dd1461ec144f6A5B46E0/routestock-agile-board)
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503886976280035469/image.png?ex=6a04fb64&is=6a03a9e4&hm=94df35125d74b6e7d84a1c503b96f5d9ee2e24cdc39cd770fdc8bc9baf03bb05&
+[Trellosprint1](https://cdn.discordapp.com/attachments/708833636480188436/1503886976280035469/image.png?ex=6a04fb64&is=6a03a9e4&hm=94df35125d74b6e7d84a1c503b96f5d9ee2e24cdc39cd770fdc8bc9baf03bb05&)
 
 | Sprint # | Sprint 1 | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -807,13 +807,13 @@ Durante este Sprint, el equipo logró maquetar y dar interactividad al Landing P
 
 * **Enlace del video de navegación:** https://drive.google.com/file/d/1DqjpUCm6IFCh3cx74Ay55pR3kxmoTNy3/view?usp=sharing
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503887246703726726/image.png?ex=6a04fba4&is=6a03aa24&hm=7cef7d1312cda30f10905797bfaba53b02b351c566c5db8ebb58161a18eaa12e&
+[Imagen1](https://cdn.discordapp.com/attachments/708833636480188436/1503887246703726726/image.png?ex=6a04fba4&is=6a03aa24&hm=7cef7d1312cda30f10905797bfaba53b02b351c566c5db8ebb58161a18eaa12e&)
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503887335149010982/image.png?ex=6a04fbb9&is=6a03aa39&hm=b827bab5225aec01b1555dc3e51faa20d5e9e74d5c3f2c14d524cc8ada114e93&
+[Imagen2](https://cdn.discordapp.com/attachments/708833636480188436/1503887335149010982/image.png?ex=6a04fbb9&is=6a03aa39&hm=b827bab5225aec01b1555dc3e51faa20d5e9e74d5c3f2c14d524cc8ada114e93&)
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503887431508820018/image.png?ex=6a04fbd0&is=6a03aa50&hm=8b6e22d5b7047437bd6105b4ffcefd0897e87a979ad91afb9c1ea7e1c8d0e37c&
+[Imagen3](https://cdn.discordapp.com/attachments/708833636480188436/1503887431508820018/image.png?ex=6a04fbd0&is=6a03aa50&hm=8b6e22d5b7047437bd6105b4ffcefd0897e87a979ad91afb9c1ea7e1c8d0e37c&)
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503887528925728909/image.png?ex=6a04fbe7&is=6a03aa67&hm=156a939d3c5cbf29cd35ae1fa3bf9e59c448060bd6237d6bd7b070304a602468&
+[Imagen4](https://cdn.discordapp.com/attachments/708833636480188436/1503887528925728909/image.png?ex=6a04fbe7&is=6a03aa67&hm=156a939d3c5cbf29cd35ae1fa3bf9e59c448060bd6237d6bd7b070304a602468&)
 
 ##### 5.2.1.6 Services Documentation Evidence for Sprint Review
 *Nota: Para el Sprint 1 enfocado en el Landing Page estático, aún no se despliegan endpoints del RESTful API. La documentación de servicios iniciará formalmente a partir del Sprint 3.*
@@ -826,7 +826,7 @@ El Landing Page ha sido desplegado exitosamente utilizando GitHub Pages (o Verce
 ##### 5.2.1.8 Team Collaboration Insights during Sprint
 Todos los miembros del equipo han colaborado activamente en el repositorio del Landing Page. Se adjuntan las métricas de colaboración extraídas de GitHub.
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503887737969967216/image.png?ex=6a04fc19&is=6a03aa99&hm=6d2b980406f73bf17664f5fe401403c03787b090281756acf949546dbaeac86e&
+[Gitflow](https://cdn.discordapp.com/attachments/708833636480188436/1503887737969967216/image.png?ex=6a04fc19&is=6a03aa99&hm=6d2b980406f73bf17664f5fe401403c03787b090281756acf949546dbaeac86e&)
 
 #### 5.2.2 Sprint 2
 
@@ -864,7 +864,7 @@ Matriz de responsabilidades asignadas durante el Sprint 2 para el desarrollo de 
 
 *Enlace al tablero público:* https://trello.com/invite/b/6a0388e35c3b484641b79d20/ATTIb8331aba1d4a877c9413dd1461ec144f6A5B46E0/routestock-agile-board 
 
-https://cdn.discordapp.com/attachments/708833636480188436/1503893909858943036/image.png?ex=6a0501d9&is=6a03b059&hm=3c2001bdf1b50716fd1faf12773dd3624ca1d144b1368e77008246d968991def&
+[Captura trello sprint 2](https://cdn.discordapp.com/attachments/708833636480188436/1503893909858943036/image.png?ex=6a0501d9&is=6a03b059&hm=3c2001bdf1b50716fd1faf12773dd3624ca1d144b1368e77008246d968991def&)
 
 | Sprint # | Sprint 2 | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

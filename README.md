@@ -709,30 +709,37 @@ Enlace para acceder al Diagram:[Component Diagrams 2](https://www.plantuml.com/p
 
 ### **5.1.1. Software Development Environment Configuration**
 
+Para asegurar un ciclo de vida de desarrollo ágil y estructurado para **RouteStock**, el equipo ha estandarizado el uso de las siguientes herramientas de desarrollo y gestión:
 
-
-Para el ciclo de vida del producto se han definido las siguientes herramientas:
-
-* **IDEs:** Visual Studio Code (Frontend/Landing) e IntelliJ IDEA (Backend/Spring Boot).
-* **Frameworks:** Angular (Web Apps) y Spring Boot (Web Services).
-* **Lenguajes:** TypeScript, Java 17+, HTML5, CSS3.
-* **Diseño:** Figma para Mock-ups y LucidChart para diagramas C4 y UML.
-
+* **Project & Requirements Management:** Se utiliza Jira Software (o Trello) para la gestión del Product Backlog, Sprint Backlogs y seguimiento de tareas mediante tableros Kanban.
+* **UX/UI Design & Architecture:** Figma para el diseño de Wireframes y Mock-ups de alta fidelidad. UXPressia para los artefactos de Needfinding (User Personas, Journey Maps). LucidChart y Structurizr (Diagram-as-Code) para los diagramas de Arquitectura de Software (C4 Model).
+* **IDEs & Development:** Visual Studio Code para el desarrollo del Frontend (Web Applications y Landing Page) e IntelliJ IDEA para el desarrollo del Backend (RESTful API).
+* **Frameworks & Lenguajes:** HTML5, CSS3, JavaScript y Angular (TypeScript) para el lado del cliente. Java 17+ y Spring Boot para la lógica del servidor.
+* **Database Management:** MySQL Workbench para el modelado y administración de la base de datos relacional.
 
 ### **5.1.2 Source Code Management**
 
+El equipo utiliza **GitHub** como repositorio central y sistema de control de versiones. Para mantener el orden y la integración continua, se aplica el flujo de trabajo **GitFlow**:
 
-Utilizaremos **GitHub** como repositorio central. El flujo de trabajo será **GitFlow**:
-
-* **Ramas estables:** main (producción) y develop (integración).
-* **Ramas temporales:** feature/US-xx para nuevas funcionalidades y hotfix/nombre para errores críticos.
-* **Commits:** Se aplicará el estándar de **Conventional Commits** (ej: feat: add landing hero section).
+* **Ramas estables:** `main` (código en producción) y `develop` (código en integración y pruebas).
+* **Ramas temporales:** `feature/nombre-funcionalidad` para el desarrollo de nuevos User Stories, y `hotfix/nombre-error` para correcciones críticas en producción.
+* **Convenciones de Commits:** Se aplica el estándar de **Conventional Commits** (ej. `feat: add hero section to landing page`, `fix: resolve responsive layout issue`).
+* **Versionado:** Se aplica *Semantic Versioning 2.0.0* (Mayor.Menor.Parche) para nombrar los releases.
 
 ### **5.1.3 Source Code Style Guide & Conventions**
 
-Se adoptarán las guías de estilo de Google para Java y TypeScript. Todo el código, incluyendo variables, métodos y comentarios, se redactará exclusivamente en **inglés**.
+Para asegurar la calidad, legibilidad y mantenibilidad del código de RouteStock, se han adoptado las siguientes convenciones:
+
+* **Idioma:** Todo el código fuente (variables, métodos, clases y comentarios descriptivos) se redacta exclusivamente en **inglés**.
+* **Guías de Estilo:** Se aplican estrictamente la *Google Java Style Guide* para el backend y la *Angular Coding Style Guide* junto con la *Google TypeScript Style Guide* para el frontend.
+* **Estructura Visual:** Para la estructura visual en el Landing Page, se respeta la nomenclatura de clases BEM (Block Element Modifier) en CSS/SCSS para evitar conflictos de especificidad. En la Web Application, se utiliza el sistema de diseño oficial de Angular Material.
 
 ### **5.1.4 Software Deployment Configuration**
+
+El despliegue continuo (CI/CD) de los productos digitales de la solución se configura de la siguiente manera:
+
+* **Landing Page y Frontend Web App:** Desplegados a través de Vercel (o GitHub Pages / Netlify), los cuales están vinculados directamente a la rama `main` de sus respectivos repositorios en GitHub, permitiendo despliegues automáticos ante cada nuevo merge validado.
+* **RESTful API y Base de Datos:** El backend construido en Spring Boot se despliega utilizando servicios en la nube (como Render o Railway), conectados a una instancia de base de datos MySQL alojada en la nube para asegurar persistencia y disponibilidad de los datos.
 
 ## **5.2 Landing Page, Services & Applications Implementation**
 

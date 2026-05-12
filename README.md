@@ -959,33 +959,210 @@ Enlace para acceder al Diagram:[Component Diagrams 2](https://www.plantuml.com/p
 
 ### **5.1.1. Software Development Environment Configuration**
 
+Para asegurar un ciclo de vida de desarrollo ágil y estructurado para **RouteStock**, el equipo ha estandarizado el uso de las siguientes herramientas de desarrollo y gestión:
 
-
-Para el ciclo de vida del producto se han definido las siguientes herramientas:
-
-* **IDEs:** Visual Studio Code (Frontend/Landing) e IntelliJ IDEA (Backend/Spring Boot).
-* **Frameworks:** Angular (Web Apps) y Spring Boot (Web Services).
-* **Lenguajes:** TypeScript, Java 17+, HTML5, CSS3.
-* **Diseño:** Figma para Mock-ups y LucidChart para diagramas C4 y UML.
-
+* **Project & Requirements Management:** Se utiliza Jira Software (o Trello) para la gestión del Product Backlog, Sprint Backlogs y seguimiento de tareas mediante tableros Kanban.
+* **UX/UI Design & Architecture:** Figma para el diseño de Wireframes y Mock-ups de alta fidelidad. UXPressia para los artefactos de Needfinding (User Personas, Journey Maps). LucidChart y Structurizr (Diagram-as-Code) para los diagramas de Arquitectura de Software (C4 Model).
+* **IDEs & Development:** Visual Studio Code para el desarrollo del Frontend (Web Applications y Landing Page) e IntelliJ IDEA para el desarrollo del Backend (RESTful API).
+* **Frameworks & Lenguajes:** HTML5, CSS3, JavaScript y Angular (TypeScript) para el lado del cliente. Java 17+ y Spring Boot para la lógica del servidor.
+* **Database Management:** MySQL Workbench para el modelado y administración de la base de datos relacional.
 
 ### **5.1.2 Source Code Management**
 
+El equipo utiliza **GitHub** como repositorio central y sistema de control de versiones. Para mantener el orden y la integración continua, se aplica el flujo de trabajo **GitFlow**:
 
-Utilizaremos **GitHub** como repositorio central. El flujo de trabajo será **GitFlow**:
-
-* **Ramas estables:** main (producción) y develop (integración).
-* **Ramas temporales:** feature/US-xx para nuevas funcionalidades y hotfix/nombre para errores críticos.
-* **Commits:** Se aplicará el estándar de **Conventional Commits** (ej: feat: add landing hero section).
+* **Ramas estables:** `main` (código en producción) y `develop` (código en integración y pruebas).
+* **Ramas temporales:** `feature/nombre-funcionalidad` para el desarrollo de nuevos User Stories, y `hotfix/nombre-error` para correcciones críticas en producción.
+* **Convenciones de Commits:** Se aplica el estándar de **Conventional Commits** (ej. `feat: add hero section to landing page`, `fix: resolve responsive layout issue`).
+* **Versionado:** Se aplica *Semantic Versioning 2.0.0* (Mayor.Menor.Parche) para nombrar los releases.
 
 ### **5.1.3 Source Code Style Guide & Conventions**
 
-Se adoptarán las guías de estilo de Google para Java y TypeScript. Todo el código, incluyendo variables, métodos y comentarios, se redactará exclusivamente en **inglés**.
+Para asegurar la calidad, legibilidad y mantenibilidad del código de RouteStock, se han adoptado las siguientes convenciones:
+
+* **Idioma:** Todo el código fuente (variables, métodos, clases y comentarios descriptivos) se redacta exclusivamente en **inglés**.
+* **Guías de Estilo:** Se aplican estrictamente la *Google Java Style Guide* para el backend y la *Angular Coding Style Guide* junto con la *Google TypeScript Style Guide* para el frontend.
+* **Estructura Visual:** Para la estructura visual en el Landing Page, se respeta la nomenclatura de clases BEM (Block Element Modifier) en CSS/SCSS para evitar conflictos de especificidad. En la Web Application, se utiliza el sistema de diseño oficial de Angular Material.
 
 ### **5.1.4 Software Deployment Configuration**
 
+El despliegue continuo (CI/CD) de los productos digitales de la solución se configura de la siguiente manera:
+
+* **Landing Page y Frontend Web App:** Desplegados a través de Vercel (o GitHub Pages / Netlify), los cuales están vinculados directamente a la rama `main` de sus respectivos repositorios en GitHub, permitiendo despliegues automáticos ante cada nuevo merge validado.
+* **RESTful API y Base de Datos:** El backend construido en Spring Boot se despliega utilizando servicios en la nube (como Render o Railway), conectados a una instancia de base de datos MySQL alojada en la nube para asegurar persistencia y disponibilidad de los datos.
+
 ## **5.2 Landing Page, Services & Applications Implementation**
 
+#### 5.2.1 Sprint 1
+
+##### 5.2.1.1 Sprint Planning 1
+Este primer Sprint se centró en la configuración inicial de los entornos, repositorios y el desarrollo completo de la primera versión del Landing Page de RouteStock, permitiendo presentar la propuesta de valor a los segmentos objetivo.
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 23-04-2026 |
+| Time | 08:00 PM |
+| Location | Microsoft Teams / Discord (Reunión Virtual) |
+| Prepared By | Tello Quispe, Luis German |
+| Attendees | Cisneros Salas Luis Angel, Tello Quispe Luis German, Arrieta Quispe Alison Jimena, Alfaro Coveñas Louis Piero |
+| **Sprint n-1 Review Summary** | N/A (Primer Sprint del proyecto). |
+| **Sprint n-1 Retrospective Summary** | N/A (Primer Sprint del proyecto). |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | **Our focus is on** deploying the first functional version of the RouteStock Landing Page. **We believe it delivers** a clear understanding of our value proposition to both local merchants and urban consumers. **This will be confirmed when** a visitor can successfully navigate the site, read our benefits, and access the terms and conditions from any device. |
+| Sprint 1 Velocity | 20 Story Points |
+| Sum of Story Points | 11 Story Points (US01 a US06) |
+
+##### 5.2.1.2 Aspect Leaders and Collaborators
+Matriz de responsabilidades asignadas durante el Sprint 1 para asegurar la efectividad del equipo.
+
+| Team Member | GitHub Username | Landing Page UI/UX | Frontend Dev (HTML/CSS/JS) | Deployment & Config |
+| :--- | :--- | :--- | :--- | :--- |
+| Alfaro Coveñas, Louis Piero | LouisAlfaro | L | C | C |
+| Arrieta Quispe, Alison Jimena | alisoft08  | C | L | C |
+| Cisneros Salas, Luis Angel | LuisCS341 | C | C | L |
+| Tello Quispe, Luis German | luistello1739-web  | C | L | C |
+*(L = Leader, C = Collaborator)*
+
+##### 5.2.1.3 Sprint Backlog 1
+
+*Enlace al tablero público:* (https://trello.com/invite/b/6a0388e35c3b484641b79d20/ATTIb8331aba1d4a877c9413dd1461ec144f6A5B46E0/routestock-agile-board)
+
+![Trellosprint1](https://cdn.discordapp.com/attachments/708833636480188436/1503886976280035469/image.png?ex=6a04fb64&is=6a03a9e4&hm=94df35125d74b6e7d84a1c503b96f5d9ee2e24cdc39cd770fdc8bc9baf03bb05&)
+
+| Sprint # | Sprint 1 | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US01 | Ver propuesta de valor | T01 | Setup HTML/CSS | Configurar estructura base y hojas de estilo. | 2 | Alison A. | Done |
+| US01 | Ver propuesta de valor | T02 | Maquetar Hero Section | Implementar sección principal con el CTA. | 3 | Luis T. | Done |
+| US02 | Navegar a los planes | T03 | Maquetar Beneficios | Crear sección "Para Negocios" con iconos. | 2 | Louis A. | Done |
+| US03 | Redirección a app | T04 | Implementar Navbar | Crear barra de navegación responsive y botones. | 3 | Luis C. | Done |
+| US04 | Ver TyC | T05 | Maquetar Footer | Implementar pie de página y vista legal básica. | 2 | Alison A. | Done |
+| US05 | Cambiar idioma | T06 | Lógica i18n básica | Script JS para cambio de idioma estático. | 4 | Luis T. | Done |
+| US06 | Accesibilidad | T07 | Auditoría ARIA/Tab | Revisar navegación por teclado en todo el sitio. | 2 | Luis C. | Done |
+
+##### 5.2.1.4 Development Evidence for Sprint Review
+Avances de implementación en el repositorio del Landing Page.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/hero-section` | `[ej. 3a5f8b]` | `feat: add hero section UI` | Implementada la vista principal con título dinámico y botones CTA primarios. | `24/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/benefits` | `[ej. 8c1d4e]` | `feat: add merchant benefits` | Agregada la cuadrícula de beneficios usando CSS Grid y Material Icons. | `25/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/footer-legal` | `[ej. f7a92c]` | `feat: setup footer and terms` | Footer estructurado con enlaces a Términos y Condiciones. | `26/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/a11y` | `[ej. 1b2c3d]` | `fix: improve keyboard navigation` | Añadidos atributos aria-label y focus states a botones y enlaces. | `27/04/2026` |
+
+##### 5.2.1.5 Execution Evidence for Sprint Review
+Durante este Sprint, el equipo logró maquetar y dar interactividad al Landing Page de RouteStock. La página es completamente responsiva, adaptándose a dispositivos móviles (Mobile First) y de escritorio. 
+
+* **Enlace del video de navegación:** https://drive.google.com/file/d/1DqjpUCm6IFCh3cx74Ay55pR3kxmoTNy3/view?usp=sharing
+
+![Imagen1](https://cdn.discordapp.com/attachments/708833636480188436/1503887246703726726/image.png?ex=6a04fba4&is=6a03aa24&hm=7cef7d1312cda30f10905797bfaba53b02b351c566c5db8ebb58161a18eaa12e&)
+
+![Imagen2](https://cdn.discordapp.com/attachments/708833636480188436/1503887335149010982/image.png?ex=6a04fbb9&is=6a03aa39&hm=b827bab5225aec01b1555dc3e51faa20d5e9e74d5c3f2c14d524cc8ada114e93&)
+
+![Imagen3](https://cdn.discordapp.com/attachments/708833636480188436/1503887431508820018/image.png?ex=6a04fbd0&is=6a03aa50&hm=8b6e22d5b7047437bd6105b4ffcefd0897e87a979ad91afb9c1ea7e1c8d0e37c&)
+
+![Imagen4](https://cdn.discordapp.com/attachments/708833636480188436/1503887528925728909/image.png?ex=6a04fbe7&is=6a03aa67&hm=156a939d3c5cbf29cd35ae1fa3bf9e59c448060bd6237d6bd7b070304a602468&)
+
+##### 5.2.1.6 Services Documentation Evidence for Sprint Review
+*Nota: Para el Sprint 1 enfocado en el Landing Page estático, aún no se despliegan endpoints del RESTful API. La documentación de servicios iniciará formalmente a partir del Sprint 3.*
+
+##### 5.2.1.7 Software Deployment Evidence for Sprint Review
+El Landing Page ha sido desplegado exitosamente utilizando GitHub Pages (o Vercel). El despliegue está automatizado para reflejar los cambios integrados en la rama `main`.
+* **URL Pública del Landing Page:** https://smartneighbor-opensource.github.io/LandingPage-RouteStock/#consumidores 
+
+
+##### 5.2.1.8 Team Collaboration Insights during Sprint
+Todos los miembros del equipo han colaborado activamente en el repositorio del Landing Page. Se adjuntan las métricas de colaboración extraídas de GitHub.
+
+![Gitflow](https://cdn.discordapp.com/attachments/708833636480188436/1503887737969967216/image.png?ex=6a04fc19&is=6a03aa99&hm=6d2b980406f73bf17664f5fe401403c03787b090281756acf949546dbaeac86e&)
+
+#### 5.2.2 Sprint 2
+
+##### 5.2.2.1 Sprint Planning 2
+Este segundo Sprint se centró en el desarrollo y despliegue de la primera versión funcional de la Web Application de RouteStock, desarrollada en Angular Framework. El objetivo principal fue implementar los flujos de autenticación y el dashboard inicial del comerciante para la gestión de su inventario.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 02-05-2026 |
+| Time | 08:30 PM |
+| Location | Microsoft Teams / Discord (Reunión Virtual) |
+| Prepared By | Tello Quispe, Luis German |
+| Attendees | Cisneros Salas Luis Angel, Tello Quispe Luis German, Arrieta Quispe Alison Jimena, Alfaro Coveñas Louis Piero |
+| **Sprint n-1 Review Summary** | Se validó el Landing Page estático. El profesor sugirió corregir la herramienta de los Journey Maps y actualizar los diagramas C4, tareas que se integraron como deuda técnica para este sprint. |
+| **Sprint n-1 Retrospective Summary** | El equipo trabajó bien con GitHub, pero acordamos ser más rigurosos con el formato de *Conventional Commits* al codificar en Angular. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** deploying the first functional version of the RouteStock Web Application using Angular. **We believe it delivers** a secure and intuitive environment for merchants to register and add their first products. **This will be confirmed when** a user can successfully navigate from the login screen to the merchant dashboard and view the inventory form. |
+| Sprint 2 Velocity | 29 Story Points |
+| Sum of Story Points | 29 Story Points (US08 a US15) |
+
+##### 5.2.2.2 Aspect Leaders and Collaborators
+Matriz de responsabilidades asignadas durante el Sprint 2 para el desarrollo de la Web Application.
+
+| Team Member | GitHub Username | Angular Components & UI | TypeScript Logic & Routing | Deployment (Vercel) |
+| :--- | :--- | :--- | :--- | :--- |
+| Alfaro Coveñas, Louis Piero | LouisAlfaro | C | L | C |
+| Arrieta Quispe, Alison Jimena | alisoft08  | L | C | C |
+| Cisneros Salas, Luis Angel | LuisCS341 | C | C | L |
+| Tello Quispe, Luis German | luistello1739-web  | C | L | C |
+
+*(L = Leader, C = Collaborator)*
+
+##### 5.2.2.3 Sprint Backlog 2
+
+*Enlace al tablero público:* https://trello.com/invite/b/6a0388e35c3b484641b79d20/ATTIb8331aba1d4a877c9413dd1461ec144f6A5B46E0/routestock-agile-board 
+
+![Captura trello sprint 2](https://cdn.discordapp.com/attachments/708833636480188436/1503893909858943036/image.png?ex=6a0501d9&is=6a03b059&hm=3c2001bdf1b50716fd1faf12773dd3624ca1d144b1368e77008246d968991def&)
+
+| Sprint # | Sprint 2 | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
+| US08 | Registro comerciante | T08 | Setup Angular & Material | Inicializar proyecto Angular e instalar Angular Material. | 2 | Luis T. | Done |
+| US08 | Registro comerciante | T09 | Maquetar form registro | Crear componente de registro con validaciones reactivas. | 4 | Alison A. | Done |
+| US09 | Inicio de sesión | T10 | Maquetar vista Login | Diseñar pantalla de inicio de sesión con Material Cards. | 3 | Louis A. | Done |
+| US10 | Cerrar sesión | T11 | Lógica Auth & Guard | Implementar servicio auth mockeado y protección de rutas. | 4 | Luis T. | Done |
+| US12 | Auth API Google | T12 | Integrar Google Btn UI | Añadir botón visual de Google Auth en la pantalla de login. | 2 | Luis C. | Done |
+| US14 | Editar perfil | T13 | Dashboard Comerciante | Maquetar vista principal del comerciante con Sidenav. | 4 | Alison A. | Done |
+| US15 | Añadir producto | T14 | Formulario Inventario | Crear modal/vista para agregar un producto al catálogo. | 4 | Louis A. | Done |
+
+##### 5.2.2.4 Development Evidence for Sprint Review
+Avances de implementación en el repositorio de la Web Application (Frontend).
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/auth-login` | `[ej. 9d4f2a]` | `feat: add login and register views` | Implementados los componentes de autenticación usando Angular Material Forms. | `04/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/merchant-dashboard` | `[ej. 2b8c1d]` | `feat: setup merchant dashboard layout` | Creada la estructura base del dashboard con mat-sidenav y router-outlet. | `06/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/add-product` | `[ej. 7e3a9b]` | `feat: add product inventory form` | Formulario reactivo para registrar nuevos productos en la vista del comerciante. | `08/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/auth-guards` | `[ej. 5c1f8e]` | `feat: implement route protection` | Añadidos Angular Guards para evitar acceso al dashboard sin sesión iniciada. | `09/05/2026` |
+
+##### 5.2.2.5 Execution Evidence for Sprint Review
+Durante este Sprint, el equipo construyó la estructura central de la Web Application en Angular. Se implementaron los flujos de navegación desde el inicio de sesión hasta el panel de administración del comerciante utilizando componentes estandarizados de Material Design.
+
+* **Enlace del video de navegación:** 
+
+##### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+urante el Sprint 2, el enfoque principal fue el desarrollo del Frontend (Web Application). Dado que la API RESTful (Backend) será implementada de forma oficial en el próximo sprint, en esta fase se utilizaron servicios simulados (Mocks) directamente en TypeScript para garantizar la funcionalidad de la interfaz y la navegación.
+
+| Service Name | Description | Status en Sprint 2 |
+| :--- | :--- | :--- |
+| `AuthService` | Simula la validación de credenciales para el inicio de sesión y registro. | Mocks implementados |
+| `MerchantService` | Simula la creación del perfil del negocio y la actualización de datos. | Mocks implementados |
+| `ProductService` | Simula el registro, guardado y listado de productos en el catálogo. | Mocks implementados |
+
+
+##### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+La Web Application (Frontend desarrollado en Angular) ha sido desplegada exitosamente y se encuentra accesible al público. Se implementó un flujo de CI/CD (Integración y Despliegue Continuo) conectado directamente a la rama `main` del repositorio.
+
+| Environment | Platform | Deployment URL | Status |
+| :--- | :--- | :--- | :--- |
+| **Production** | Vercel / Netlify | `[AQUÍ EL LINK DE TU APP DESPLEGADA]` | Active / Deployed |
+
+##### 5.2.2.8 Team Collaboration Insights during Sprint
 
 
 ## **5.3 Validation Interviews**

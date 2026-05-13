@@ -998,10 +998,16 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de RouteStock
 
 ### **5.1.4 Software Deployment Configuration**
 
-El despliegue continuo (CI/CD) de los productos digitales de la solución se configura de la siguiente manera:
+Para el despliegue de los productos digitales de RouteStock se ha configurado lo siguiente:
 
-* **Landing Page y Frontend Web App:** Desplegados a través de Vercel (o GitHub Pages / Netlify), los cuales están vinculados directamente a la rama `main` de sus respectivos repositorios en GitHub, permitiendo despliegues automáticos ante cada nuevo merge validado.
-* **RESTful API y Base de Datos:** El backend construido en Spring Boot se despliega utilizando servicios en la nube (como Render o Railway), conectados a una instancia de base de datos MySQL alojada en la nube para asegurar persistencia y disponibilidad de los datos.
+**Landing Page**
+El código fuente está alojado en un repositorio público dentro de la organización de GitHub del equipo. Para el despliegue se utiliza **GitHub Pages**, conectado directamente al repositorio, lo que permite que cada actualización en la rama principal se refleje automáticamente en el sitio publicado.
+
+**Frontend Web Application**
+La aplicación Angular sigue el mismo esquema de despliegue, utilizando **GitHub Pages** conectado al repositorio correspondiente dentro de la organización de GitHub.
+
+**Web Services**
+El backend desarrollado con Spring Boot será desplegado en **Railway**, conectado al repositorio de GitHub del equipo, con las configuraciones de entorno necesarias para su correcto funcionamiento.
 
 ## **5.2 Landing Page, Services & Applications Implementation**
 
@@ -1176,7 +1182,10 @@ La Web Application (Frontend desarrollado en Angular) ha sido desplegada exitosa
 
 ##### 5.2.2.8 Team Collaboration Insights during Sprint
 
+   Todos los miembros del equipo han colaborado activamente en el repositorio del Landing Page. Se adjuntan las métricas de colaboración extraídas de GitHub. 
 
+   ![Gitflow](chapter2/img/github.png)
+   
 ## **5.3 Validation Interviews**
 
 ### **5.3.1 Diseño de Entrevistas**

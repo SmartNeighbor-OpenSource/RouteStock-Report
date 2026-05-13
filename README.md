@@ -44,6 +44,15 @@ Luis Angel Cisneros Salas (U20211B198)
 # <a name="_heading=h.iqfc12at5bpt"></a>**Project Report Collaboration Insights**
 
 TB1: Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+El equipo de desarrollo esta trabajando en una organización de github 
+
+https://github.com/orgs/SmartNeighbor-OpenSource/repositories
+
+y los reportes en el repositorio
+
+https://github.com/SmartNeighbor-OpenSource/RouteStock-Report
+
 | Integrante | Tareas Designadas |
 |---|---|
 | Louis Piero Alfaro Coveñas | Implementación del Capítulo II completo, aporte en el diseño de base de datos, diagrama de clases y desarrollo del Landing Page. Documentación e implementación de la Web Application de RouteStock en Angular, incluyendo vistas principales y configuración de la fake API. |

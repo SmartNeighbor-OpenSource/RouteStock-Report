@@ -1050,10 +1050,10 @@ Avances de implementación en el repositorio del Landing Page.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/hero-section` | `[ej. 3a5f8b]` | `feat: add hero section UI` | Implementada la vista principal con título dinámico y botones CTA primarios. | `24/04/2026` |
-| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/benefits` | `[ej. 8c1d4e]` | `feat: add merchant benefits` | Agregada la cuadrícula de beneficios usando CSS Grid y Material Icons. | `25/04/2026` |
-| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/footer-legal` | `[ej. f7a92c]` | `feat: setup footer and terms` | Footer estructurado con enlaces a Términos y Condiciones. | `26/04/2026` |
-| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/a11y` | `[ej. 1b2c3d]` | `fix: improve keyboard navigation` | Añadidos atributos aria-label y focus states a botones y enlaces. | `27/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/hero-section` | `aa744f8925e7609048c333f6df7d997e32f5c4c7` | `feat: add hero section UI` | Implementada la vista principal con título dinámico y botones CTA primarios. | `24/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/benefits` | `c17e8f4844e2ddc0e390d955ebe4eccd9760dff6` | `feat: add merchant benefits` | Agregada la cuadrícula de beneficios usando CSS Grid y Material Icons. | `25/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/footer-legal` | `ac924e350df31ef8f49570842421fd7bcbff9f9b` | `feat: setup footer and terms` | Footer estructurado con enlaces a Términos y Condiciones. | `26/04/2026` |
+| `SmartNeighbor-OpenSource/LandingPage-Route-Stock` | `feature/a11y` | `958b3a9eea4c1234a7fdffe2af7c6fee9877116b` | `fix: improve keyboard navigation` | Añadidos atributos aria-label y focus states a botones y enlaces. | `27/04/2026` |
 
 ##### 5.2.1.5 Execution Evidence for Sprint Review
 Durante este Sprint, el equipo logró maquetar y dar interactividad al Landing Page de RouteStock. La página es completamente responsiva, adaptándose a dispositivos móviles (Mobile First) y de escritorio. 
@@ -1136,10 +1136,10 @@ Avances de implementación en el repositorio de la Web Application (Frontend).
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/auth-login` | `[ej. 9d4f2a]` | `feat: add login and register views` | Implementados los componentes de autenticación usando Angular Material Forms. | `04/05/2026` |
-| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/merchant-dashboard` | `[ej. 2b8c1d]` | `feat: setup merchant dashboard layout` | Creada la estructura base del dashboard con mat-sidenav y router-outlet. | `06/05/2026` |
-| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/add-product` | `[ej. 7e3a9b]` | `feat: add product inventory form` | Formulario reactivo para registrar nuevos productos en la vista del comerciante. | `08/05/2026` |
-| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/auth-guards` | `[ej. 5c1f8e]` | `feat: implement route protection` | Añadidos Angular Guards para evitar acceso al dashboard sin sesión iniciada. | `09/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/auth-login` | `8eb84e576390ff729671aa82b903f09a7c8617be` | `feat: add login and register views` | Implementados los componentes de autenticación usando Angular Material Forms. | `04/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/merchant-dashboard` | `38b842c0c79a88b2de0b6375eea2b13c2839d0b1` | `feat: setup merchant dashboard layout` | Creada la estructura base del dashboard con mat-sidenav y router-outlet. | `06/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/add-product` | `6862d325b769b8adcab7d01e44b8748d9c63bbb1` | `feat: add product inventory form` | Formulario reactivo para registrar nuevos productos en la vista del comerciante. | `08/05/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-WebApp` | `feature/auth-guards` | `6644ee4a14c0f491bae1f6bf58db900105626a20` | Añadidos Angular Guards para evitar acceso al dashboard sin sesión iniciada. | `09/05/2026` |
 
 ##### 5.2.2.5 Execution Evidence for Sprint Review
 Durante este Sprint, el equipo construyó la estructura central de la Web Application en Angular. Se implementaron los flujos de navegación desde el inicio de sesión hasta el panel de administración del comerciante utilizando componentes estandarizados de Material Design.

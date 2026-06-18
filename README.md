@@ -1133,6 +1133,28 @@ La Web Application (Frontend desarrollado en Angular) ha sido desplegada exitosa
 
 # **Conclusiones**
 
+
+RouteStock fue desarrollado como respuesta a una problemática real del contexto peruano: la baja digitalización de bodegas, pequeños comercios locales y vendedores ambulantes, junto con la dificultad de los consumidores para encontrar productos cercanos de manera rápida y confiable. A lo largo del proyecto, el equipo identificó las necesidades de ambos segmentos (comerciantes y consumidores) y construyó una plataforma funcional que responde directamente a esos problemas mediante código desplegado y verificado, no únicamente mediante una propuesta de diseño.
+
+A la fecha de cierre del proyecto, la Web Application de RouteStock implementa y tiene operativas las siguientes funcionalidades, validadas mediante pruebas manuales sobre el sistema desplegado:
+
+- Registro e inicio de sesión diferenciado por tipo de perfil (comerciante o consumidor), con persistencia de sesión entre recargas.
+- Registro de comercios por parte del usuario comerciante, incluyendo tipo de negocio, dirección, descripción y ubicación geográfica.
+- Gestión completa del inventario del comerciante: creación, edición y eliminación de productos asociados a su comercio.
+- Búsqueda de productos por nombre y categoría, con resultados en tiempo real sobre el catálogo disponible.
+- Visualización pública del detalle de un comercio y sus productos, accesible para cualquier usuario consumidor autenticado.
+- Carrito de compras multi-comercio, con control de cantidades según el stock disponible y confirmación de compra que actualiza el inventario real de cada producto.
+- Visualización del perfil del usuario autenticado con su información de cuenta.
+- Servicios backend (fake API) que soportan el registro de usuarios, listado de comercios y listado de productos, consumidos directamente por la aplicación.
+
+Estas funcionalidades fueron verificadas de manera incremental durante el desarrollo, identificando y corrigiendo errores de integración entre el frontend y los datos del backend simulado, lo cual permitió cerrar el proyecto con un flujo de extremo a extremo operativo: desde el registro de un usuario hasta la confirmación de una compra con descuento real de stock.
+
+Quedan fuera del alcance entregado, y se identifican como trabajo futuro, las siguientes funcionalidades que formaban parte de la visión inicial del producto: sistema de calificaciones de comercios, contacto directo entre consumidores y comerciantes, gestión de tipo de entrega (delivery o recojo), despliegue de un backend real (RESTful API propia en lugar de la fake API), y la validación formal del producto mediante entrevistas a usuarios, la cual no se llegó a ejecutar durante el periodo de desarrollo.
+
+El uso de herramientas como Lean UX, User Personas, User Journey Mapping, Empathy Mapping, Event Storming, User Stories y Product Backlog permitió organizar el proyecto de forma centrada en el usuario durante la etapa de diseño. Esa base conceptual se tradujo en una implementación funcional concreta, cuya cobertura real frente al alcance planificado se documenta en el presente informe.
+
+En conclusión, RouteStock entrega una primera versión funcional y verificable de la plataforma, que cubre el flujo principal de registro, gestión de inventario, búsqueda y compra entre comerciantes y consumidores. Las funcionalidades pendientes quedan claramente delimitadas como trabajo futuro, distinguiendo lo efectivamente construido y probado de lo que aún corresponde a la visión extendida del producto.
+
 # **Bibliografía**
 
 * Laudon, K. C., & Laudon, J. P. (2020). Management information systems: Managing the digital firm (16th ed.). Pearson Education.

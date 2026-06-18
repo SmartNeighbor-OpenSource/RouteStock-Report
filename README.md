@@ -1119,35 +1119,37 @@ La Web Application (Frontend desarrollado en Angular) ha sido desplegada exitosa
 ##### 5.2.2.8 Team Collaboration Insights during Sprint
 
 
-#### 5.2.2 Sprint 2
+#### 5.2.3 Sprint 3
 
-##### 5.2.2.1 Sprint Planning 2
-Este segundo Sprint se centró en el desarrollo y despliegue de la primera versión funcional de la Web Application de RouteStock, desarrollada en Angular Framework. El objetivo principal fue implementar los flujos de autenticación y el dashboard inicial del comerciante para la gestión de su inventario.
+##### 5.2.2.1 Sprint Planning 3
+Este tercer Sprint se centró en el desarrollo e implementación de la primera versión del RESTful API de RouteStock utilizando Spring Boot, permitiendo la persistencia de datos y habilitando la integración entre el backend y la Web Application ya desplegada. Asimismo, se incorporaron las funcionalidades de gestión de inventario, búsqueda de productos y visualización de comercios para ambos segmentos objetivo. 
 
-| Sprint # | Sprint 2 |
+
+| Sprint # | Sprint 3 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| Date | 02-05-2026 |
-| Time | 08:30 PM |
-| Location | Microsoft Teams / Discord (Reunión Virtual) |
+| Date | 16-06-2026 |
+| Time | 08:00 PM |
+| Location | Discord (Reunión Virtual) |
 | Prepared By | Tello Quispe, Luis German |
 | Attendees | Cisneros Salas Luis Angel, Tello Quispe Luis German, Arrieta Quispe Alison Jimena, Alfaro Coveñas Louis Piero |
-| **Sprint n-1 Review Summary** | Se validó el Landing Page estático. El profesor sugirió corregir la herramienta de los Journey Maps y actualizar los diagramas C4, tareas que se integraron como deuda técnica para este sprint. |
-| **Sprint n-1 Retrospective Summary** | El equipo trabajó bien con GitHub, pero acordamos ser más rigurosos con el formato de *Conventional Commits* al codificar en Angular. |
+| **Sprint n-3 Review Summary** | Se completó el desarrollo y despliegue de la primera versión del RESTful API de RouteStock utilizando Spring Boot, incluyendo los principales endpoints para los bounded contexts definidos, documentados con OpenAPI/Swagger y desplegados en la nube. |
+| **Sprint n-3 Retrospective Summary** | El equipo identificó como punto positivo la distribución de bounded contexts por integrante, lo que permitió un desarrollo paralelo del backend. Como oportunidad de mejora se estableció estandarizar los response models y convenciones de nomenclatura de endpoints desde el inicio del sprint para evitar inconsistencias en la integración. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | **Our focus is on** deploying the first functional version of the RouteStock Web Application using Angular. **We believe it delivers** a secure and intuitive environment for merchants to register and add their first products. **This will be confirmed when** a user can successfully navigate from the login screen to the merchant dashboard and view the inventory form. |
-| Sprint 2 Velocity | 29 Story Points |
-| Sum of Story Points | 29 Story Points (US08 a US15) |
+| Sprint 3 Goal | **Our focus is on** implementing the RESTful API of RouteStock using Spring Boot and deploying it on Render. **We believe it delivers** a complete and functional backend that supports authentication, product management, order processing, and store registration. **This will be confirmed when** the API endpoints are documented in Swagger, deployed on Render, and successfully consumed by the Web Application. |
+| Sprint 3 Velocity | 29 Story Points |
+| Sum of Story Points | 29 Story Points |
 
-##### 5.2.2.2 Aspect Leaders and Collaborators
-Matriz de responsabilidades asignadas durante el Sprint 2 para el desarrollo de la Web Application.
+##### 5.2.3.2 Aspect Leaders and Collaborators
+Matriz de responsabilidades asignadas durante el Sprint 3 para asegurar la efectividad del equipo.
 
-| Team Member | GitHub Username | Angular Components & UI | TypeScript Logic & Routing | Deployment (Vercel) |
-| :--- | :--- | :--- | :--- | :--- |
-| Alfaro Coveñas, Louis Piero | LouisAlfaro | C | L | C |
-| Arrieta Quispe, Alison Jimena | alisoft08  | L | C | C |
-| Cisneros Salas, Luis Angel | LuisCS341 | C | C | L |
-| Tello Quispe, Luis German | luistello1739-web  | C | L | C |
+
+| Team Member | GitHub Username | RESTful API Design | Backend Implementation (Spring Boot) | Database & Persistence | Deployment & Config |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Alfaro Coveñas, Louis Piero | LouisAlfaro | L | C | C | C |
+| Arrieta Quispe, Alison Jimena | alisoft08 | C | L | C | C |
+| Cisneros Salas, Luis Angel | LuisCS341 | C | C | L | C |
+| Tello Quispe, Luis German | uistello1739-web | C | C | C | L |
 
 *(L = Leader, C = Collaborator)*
 

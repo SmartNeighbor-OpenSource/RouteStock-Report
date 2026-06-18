@@ -1223,6 +1223,8 @@ Durante el Sprint 3, el equipo implementó el RESTful API de RouteStock utilizan
 
 Todos los miembros del equipo han colaborado activamente en el repositorio del backend (RouteStock-Backend). Cada integrante lideró el desarrollo de los endpoints correspondientes a su bounded context asignado, aplicando GitFlow con ramas feature por funcionalidad y Conventional Commits en cada aporte. Se adjuntan las métricas de colaboración extraídas de GitHub. 
 
+![Backend Commit](chapter1/img/commit_backend.png)
+
 
 ## **5.3 Validation Interviews**
 

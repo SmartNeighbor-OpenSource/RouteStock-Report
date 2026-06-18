@@ -42,25 +42,229 @@ Luis Angel Cisneros Salas (U20211B198)
 
 # <a name="_heading=h.iqfc12at5bpt"></a>**Project Report Collaboration Insights**
 
-TB1: Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
-|Integrante|Tareas Designadas|
+AV2: Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+| Integrante | Tareas Designadas |
 | :- | :- |
-|Louis Piero Alfaro Coveñas|Implemente todo el capitulo 2 y aporte para el diseño de base de datos y clase diagrama además aporte con la LandingPage.|
-|Luis German Tello Quispe|Desarrollo del capitulo 3 y los wireframes|
-|Luis Angel Cisneros Salas|Elaboración de los diagramas C4 (Context, Container y Component), entrevista del Segmento 1 y correcciones del Capítulo 2.|
-|Alison Arrieta|Desarrollo del capitulo 1, desarrollo de las epicas y user stories relacionadas|
-|||
+| Louis Piero Alfaro Coveñas | Implementé todo el Capítulo 2 y aporté para el diseño de base de datos y diagrama de clases. Además aporté con la Landing Page. Implementación del módulo de Authentication en el backend: endpoints POST /api/v1/authentication/sign-up y POST /api/v1/authentication/sign-in, con documentación en Swagger. |
+| Luis German Tello Quispe | Desarrollo del Capítulo 3 y los wireframes. Implementación del módulo de Products en el backend: endpoints GET, POST /api/v1/products, PATCH de stock y precio, GET y DELETE por ID, con documentación en Swagger. |
+| Luis Angel Cisneros Salas | Elaboración de los diagramas C4 (Context, Container y Component), entrevista del Segmento 1 y correcciones del Capítulo 2. Implementación del módulo de Orders en el backend: endpoints GET, POST /api/v1/orders, PATCH de estado y GET por ID, con documentación en Swagger. |
+| Alison Arrieta | Desarrollo del Capítulo 1, desarrollo de las épicas y user stories relacionadas. Implementación de los módulos de Users y Stores en el backend: endpoints de consulta de usuarios, registro y gestión de comercios, y calificaciones de tiendas (POST /api/v1/stores/{storeId}/ratings), con documentación en Swagger. |
+| | |
 
 # <a name="_heading=h.nbg6pah72qg3"></a>**Student Outcome**
-El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 3 Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 3 Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, correspondientes a los avances Avn1 y Avn2, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 
-|Criterio específico|` `Acciones Realizadas|Conclusiones|
-| :- | :- | :- |
-|Comunicación empática y analítica con usuarios y stakeholders|<p>**U20191b299 - Louis Piero Alfaro Coveñas**</p><p></p><p>**Avn1:**</p><p>Desarrollo íntegro del Capítulo II: Requirements Elicitation & Analysis. Esto incluyó el diseño, ejecución y análisis de entrevistas tanto a dueños de bodegas como a consumidores. Además, elaboré artefactos visuales de comunicación como Empathy Maps y User Journey Maps.</p><p></p><p>**U20211B198- Luis Angel Cisneros Salas**</p><p></p><p>**Avn1:**</p><p>Elaboré los diagramas de Software Architecture utilizando el modelo C4, incluyendo el Context Diagram, Container Diagram y Component Diagrams para el sistema RouteStock. Realicé entrevistas a representantes de ambos segmentos objetivo para la recolección de requisitos. Además, participé en las correcciones del Capítulo 2, mejorando la calidad y coherencia de los artefactos de UX Research.</p><p></p><p>**U202317767 - Luis German Tello Quispe**</p><p></p><p>**Avn1:**</p><p>Redacción técnica del Capítulo 3: Especificación de User Stories, Impact Mapping y estructuración del Product Backlog.</p><p></p><p>**u202312031 - Alison Jimena Arrieta Quispe**</p><p></p><p>**Avn1:**</p><p>Desarrollé el Capítulo I del proyecto, abordando el Solution Profile, antecedentes, problemática y aplicación del método 5W + 2H para explicar de manera clara el contexto de SmartNeighbor y la solución RouteStock. Además, trabajé el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y la definición de los segmentos objetivo. También participé en el desarrollo de las épicas, algunas user stories relacionadas y en la organización de información obtenida mediante entrevistas a los usuarios.</p>|<p>**U20191b299 - Louis Piero Alfaro Coveñas**</p><p></p><p>**Avn1:**</p><p>Se logró interpretar y traducir las necesidades reales y los "dolores" de los usuarios finales en requerimientos documentados claros. Esto demuestra la capacidad de adaptar la comunicación para interactuar con personas ajenas al desarrollo de software, extraer información valiosa y presentarla de forma comprensible para todo el equipo.</p><p></p><p>**U20211B198- Luis Angel Cisneros Salas**</p><p></p><p>**Avn1:**</p><p>La elaboración de los diagramas C4 me permitió comunicar de forma clara y estructurada la arquitectura del sistema a diferentes niveles de audiencia, desde una visión general del contexto hasta el detalle de los componentes internos. Las entrevistas que realicé contribuyeron a validar los requisitos identificados con usuarios reales de ambos segmentos.</p><p></p><p>**U202317767 - Luis German Tello Quispe**</p><p></p><p>**Avn1:**</p><p>Logré traducir las necesidades del negocio y de los usuarios, comerciantes y consumidores, en especificaciones técnicas claras, asegurando que tanto stakeholders como desarrolladores comprendan exactamente qué funcionalidades construir.</p><p></p><p>**u202312031 - Alison Jimena Arrieta Quispe**</p><p></p><p>**Avn1:**</p><p>Logré explicar la problemática del proyecto desde una perspectiva clara, empática y centrada en los usuarios, identificando las necesidades de comerciantes, vendedores ambulantes y consumidores. El desarrollo del Capítulo I permitió ordenar la información inicial del proyecto y convertirla en una base sólida para comprender el problema, justificar la propuesta de valor y orientar el resto del trabajo hacia necesidades reales del mercado.</p>|
-|Comunicación técnica y arquitectónica |<p>**U20191b299 - Louis Piero Alfaro Coveñas**</p><p></p><p>**Avn1:**</p><p>Aporte sustancial en el Capítulo IV (Product Design), específicamente en la formulación del diseño de base de datos y la estructuración del diagrama de clases</p><p></p><p>**U20211B198- Luis Angel Cisneros Salas**</p><p></p><p>**Avn1:**</p><p>Elaboré los diagramas de arquitectura de software bajo el modelo C4, desarrollando el Context Diagram, Container Diagram y Component Diagrams para el sistema RouteStock, comunicando de forma estructurada la arquitectura a distintos niveles de detalle.</p><p></p><p>**U202317767 - Luis German Tello Quispe**</p><p></p><p>**Avn1:**</p><p>Diseño y elaboración de los Wireframes para el Landing Page y las Web Applications.</p><p></p><p>**u202312031 - Alison Jimena Arrieta Quispe**</p><p></p><p>**Avn1:**</p><p>Desarrollé la base conceptual y funcional del proyecto desde el Capítulo I, estructurando la problemática, los antecedentes, el análisis 5W + 2H, el Lean UX Canvas y las hipótesis principales de RouteStock. Asimismo, contribuí en la definición de épicas y algunas user stories, conectando las necesidades identificadas en las entrevistas con funcionalidades concretas para la solución.</p>|<p>**U20191b299 - Louis Piero Alfaro Coveñas**</p><p></p><p>**Avn1:**</p><p>Al utilizar lenguajes de modelado estandarizados, como UML y diagramas entidad-relación, se logró comunicar la complejidad de la lógica de negocio y la arquitectura de la información. Esto permitió que los demás ingenieros y desarrolladores del equipo comprendan la estructura interna del sistema sin ambigüedades.</p><p></p><p>**U20211B198- Luis Angel Cisneros Salas**</p><p></p><p>**Avn1:**</p><p>La elaboración de los diagramas C4 me permitió representar la arquitectura del sistema de forma clara y estandarizada, facilitando que todos los miembros del equipo comprendieran la estructura interna sin ambigüedades.</p><p></p><p></p><p>**U202317767 - Luis German Tello Quispe**</p><p></p><p>**Avn1:**</p><p>Pude representar la arquitectura de información y las reglas de negocio a través de esquemas visuales intuitivos, facilitando la comprensión del flujo de interacción del producto antes de su implementación en código.</p><p></p><p>**u202312031 - Alison Jimena Arrieta Quispe**</p><p></p><p>**Avn1:**</p><p>Mi aporte permitió conectar el análisis inicial del problema con la estructura funcional del producto. A partir del Lean UX Canvas, las hipótesis, las épicas y las user stories, se logró establecer una base ordenada para que el equipo pueda comprender qué necesidades debía resolver RouteStock y cómo estas podían traducirse luego en componentes, funcionalidades y decisiones técnicas.</p>|
-|Comunicación comercial y persuasiva|<p>**U20191b299 - Louis Piero Alfaro Coveñas**</p><p></p><p>**Avn1:**</p><p>Contribución directa en el diseño y desarrollo de la Landing Page del proyecto.</p><p></p><p>**U20211B198- Luis Angel Cisneros Salas**</p><p></p><p>**Avn1:**</p><p>Participé en la definición del perfil de los segmentos objetivo y realicé entrevistas a usuarios de ambos segmentos, contribuyendo a identificar las necesidades reales del mercado para orientar la propuesta de valor de RouteStock.</p><p></p><p></p><p>**U202317767 - Luis German Tello Quispe**</p><p></p><p>**Avn1:**</p><p>Sustentación de mi avance y defensa de los artefactos en el video de exposición de la entrega avn1.</p><p></p><p>**u202312031 - Alison Jimena Arrieta Quispe**</p><p></p><p>**Avn1:**</p><p>Desarrollé la presentación inicial del proyecto desde el Capítulo I, explicando la propuesta de SmartNeighbor y RouteStock mediante los antecedentes, problemática, análisis 5W + 2H, Lean UX Problem Statements, Lean UX Assumptions, Hypothesis Statements, Lean UX Canvas y segmentos objetivo. Además, contribuí en la formulación de épicas, algunas user stories y en el uso de información obtenida en entrevistas para reforzar la propuesta de valor del producto.</p>|<p>**U20191b299 - Louis Piero Alfaro Coveñas**</p><p></p><p>**Avn1:**</p><p>Se demostró la capacidad de simplificar el lenguaje técnico del proyecto y transformarlo en un mensaje comercial atractivo. La Landing Page comunica efectivamente la propuesta de valor de RouteStock, adaptando el tono visual y textual para captar y persuadir a futuros clientes, tanto comerciantes como usuarios urbanos</p><p></p><p>**U20211B198- Luis Angel Cisneros Salas**</p><p></p><p>**Avn1:**</p><p>A través de las entrevistas que realicé pude validar la propuesta de valor de RouteStock con usuarios reales, confirmando la necesidad de una plataforma que digitalice los comercios locales y facilite la búsqueda de productos cercanos para los consumidores urbanos.</p><p></p><p>**U202317767 - Luis German Tello Quispe**</p><p></p><p>**Avn1:**</p><p>Logré adaptar mi lenguaje verbal para explicar la lógica detrás de los requerimientos y las decisiones de diseño UI, haciéndolo comprensible y directo para una audiencia de evaluadores técnicos y funcionales.</p><p></p><p>**u202312031 - Alison Jimena Arrieta Quispe**</p><p></p><p>**Avn1:**</p><p>Logré comunicar la propuesta de valor de RouteStock de manera clara y convincente, resaltando su importancia para digitalizar pequeños comercios, dar mayor visibilidad a bodegas y vendedores ambulantes, y facilitar que los consumidores encuentren productos cercanos. El desarrollo del Capítulo I permitió presentar el proyecto con un enfoque más estratégico, mostrando no solo el problema, sino también la oportunidad de negocio, los usuarios involucrados y el valor diferencial de la solución.</p>|
 
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones Realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- CRITERIO 1 -->
+    <tr>
+      <td rowspan="4"><strong>Comunicación empática y analítica con usuarios y stakeholders</strong></td>
+      <td>
+        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Desarrollo íntegro del Capítulo II: Requirements Elicitation & Analysis. Esto incluyó el diseño, ejecución y análisis de entrevistas tanto a dueños de bodegas como a consumidores. Además, elaboré artefactos visuales de comunicación como Empathy Maps y User Journey Maps.<br><br>
+        <strong>Avn2:</strong><br>
+        Implementé el módulo de Authentication en el backend de RouteStock, incluyendo los endpoints POST /api/v1/authentication/sign-up y POST /api/v1/authentication/sign-in, respondiendo a las necesidades identificadas en las entrevistas: los usuarios exigían un registro sencillo y diferenciado según su perfil (comerciante o consumidor).
+      </td>
+      <td>
+        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Se logró interpretar y traducir las necesidades reales y los "dolores" de los usuarios finales en requerimientos documentados claros. Esto demuestra la capacidad de adaptar la comunicación para interactuar con personas ajenas al desarrollo de software, extraer información valiosa y presentarla de forma comprensible para todo el equipo.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación del módulo de autenticación demostró la capacidad de traducir las necesidades de acceso diferenciado por perfil, identificadas en entrevistas, en endpoints funcionales y verificados mediante Swagger, comunicando el resultado técnico al equipo de forma clara.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Elaboré los diagramas de Software Architecture utilizando el modelo C4, incluyendo el Context Diagram, Container Diagram y Component Diagrams para el sistema RouteStock. Realicé entrevistas a representantes de ambos segmentos objetivo para la recolección de requisitos. Además, participé en las correcciones del Capítulo 2, mejorando la calidad y coherencia de los artefactos de UX Research.<br><br>
+        <strong>Avn2:</strong><br>
+        Implementé el módulo de Orders en el backend, exponiendo los endpoints GET /api/v1/orders, POST /api/v1/orders, PATCH /api/v1/orders/{orderId}/status y GET /api/v1/orders/{orderId}, cubriendo directamente la necesidad de gestión de pedidos identificada durante las entrevistas con consumidores.
+      </td>
+      <td>
+        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        La elaboración de los diagramas C4 me permitió comunicar de forma clara y estructurada la arquitectura del sistema a diferentes niveles de audiencia, desde una visión general del contexto hasta el detalle de los componentes internos. Las entrevistas que realicé contribuyeron a validar los requisitos identificados con usuarios reales de ambos segmentos.<br><br>
+        <strong>Avn2:</strong><br>
+        El desarrollo del módulo de Orders me permitió materializar el flujo de pedidos que los consumidores describieron durante las entrevistas, verificando con el equipo que los endpoints expuestos cubrieran los casos de uso reales: listar, crear y actualizar el estado de un pedido.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Redacción técnica del Capítulo 3: Especificación de User Stories, Impact Mapping y estructuración del Product Backlog.<br><br>
+        <strong>Avn2:</strong><br>
+        Implementé el módulo de Products en el backend, desarrollando los endpoints GET, POST /api/v1/products, PATCH /api/v1/products/{productId}/stock, PATCH /api/v1/products/{productId}/price, GET /api/v1/products/{productId} y DELETE /api/v1/products/{productId}, atendiendo la necesidad de gestión de inventario identificada en las entrevistas con comerciantes.
+      </td>
+      <td>
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Logré traducir las necesidades del negocio y de los usuarios, comerciantes y consumidores, en especificaciones técnicas claras, asegurando que tanto stakeholders como desarrolladores comprendan exactamente qué funcionalidades construir.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación del módulo de Products me permitió concretar las funcionalidades de inventario que los comerciantes demandaron en las entrevistas, validando con el equipo que cada operación (agregar, actualizar stock, actualizar precio, eliminar) respondiera a un caso de uso documentado en el Product Backlog.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Desarrollé el Capítulo I del proyecto, abordando el Solution Profile, antecedentes, problemática y aplicación del método 5W + 2H. Además, trabajé el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y la definición de los segmentos objetivo.<br><br>
+        <strong>Avn2:</strong><br>
+        Implementé los módulos de Users y Stores en el backend, exponiendo GET /api/v1/users, GET /api/v1/users/{userId}, GET /api/v1/stores, GET/PUT /api/v1/stores/{storeId}, POST /api/v1/stores y POST /api/v1/stores/{storeId}/ratings, respondiendo a la necesidad de visibilidad de comercios locales identificada en las entrevistas.
+      </td>
+      <td>
+        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Logré explicar la problemática del proyecto desde una perspectiva clara, empática y centrada en los usuarios, identificando las necesidades de comerciantes, vendedores ambulantes y consumidores.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación de los módulos de Users y Stores cerró el ciclo entre las necesidades de visibilidad identificadas en las entrevistas y la solución técnica: los comerciantes pueden registrar su negocio y recibir calificaciones, y los consumidores pueden consultar el catálogo de tiendas disponibles.
+      </td>
+    </tr>
+    <!-- CRITERIO 2 -->
+    <tr>
+      <td rowspan="4"><strong>Comunicación técnica y arquitectónica</strong></td>
+      <td>
+        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Aporte sustancial en el Capítulo IV (Product Design), específicamente en la formulación del diseño de base de datos y la estructuración del diagrama de clases.<br><br>
+        <strong>Avn2:</strong><br>
+        Diseñé e implementé los endpoints de autenticación siguiendo los lineamientos de arquitectura RESTful definidos para RouteStock Platform, documentando cada operación en Swagger con sus parámetros, respuestas y códigos de estado correspondientes.
+      </td>
+      <td>
+        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Al utilizar lenguajes de modelado estandarizados, como UML y diagramas entidad-relación, se logró comunicar la complejidad de la lógica de negocio y la arquitectura de la información.<br><br>
+        <strong>Avn2:</strong><br>
+        La documentación de los endpoints de autenticación en Swagger permitió que el equipo de frontend consumiera la API sin necesidad de explicaciones adicionales, demostrando la capacidad de comunicar decisiones técnicas mediante estándares reconocidos.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Elaboré los diagramas de arquitectura de software bajo el modelo C4, desarrollando el Context Diagram, Container Diagram y Component Diagrams para el sistema RouteStock.<br><br>
+        <strong>Avn2:</strong><br>
+        Implementé el módulo de Orders respetando la separación por bounded contexts definida en BOUNDED_CONTEXTS.md del repositorio backend, asegurando que la lógica de pedidos esté aislada y correctamente expuesta a través de la API REST documentada en Swagger.
+      </td>
+      <td>
+        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        La elaboración de los diagramas C4 me permitió representar la arquitectura del sistema de forma clara y estandarizada, facilitando que todos los miembros del equipo comprendieran la estructura interna sin ambigüedades.<br><br>
+        <strong>Avn2:</strong><br>
+        El módulo de Orders implementado y documentado en Swagger facilitó la integración entre el backend y el equipo de frontend, ya que los contratos de cada endpoint estaban definidos con precisión antes de iniciar el consumo desde la Web Application.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Diseño y elaboración de los Wireframes para el Landing Page y las Web Applications.<br><br>
+        <strong>Avn2:</strong><br>
+        Desarrollé el módulo de Products bajo el patrón de arquitectura en capas del backend Spring Boot con Gradle, exponiendo los endpoints de inventario con operaciones diferenciadas para stock y precio, documentándolos en Swagger UI accesible en localhost:8081.
+      </td>
+      <td>
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Pude representar la arquitectura de información y las reglas de negocio a través de esquemas visuales intuitivos, facilitando la comprensión del flujo de interacción del producto antes de su implementación en código.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación del módulo de Products con operaciones granulares de stock y precio demostró la capacidad de traducir las reglas de negocio del inventario en una API técnica coherente, verificable y documentada en Swagger.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Desarrollé la base conceptual y funcional del proyecto desde el Capítulo I, estructurando la problemática, los antecedentes, el análisis 5W + 2H, el Lean UX Canvas y las hipótesis principales de RouteStock.<br><br>
+        <strong>Avn2:</strong><br>
+        Implementé los módulos de Users y Stores siguiendo la arquitectura RESTful del sistema, incluyendo el endpoint de calificaciones de tiendas (POST /api/v1/stores/{storeId}/ratings), documentando cada operación en Swagger con sus esquemas de request/response.
+      </td>
+      <td>
+        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Mi aporte permitió conectar el análisis inicial del problema con la estructura funcional del producto, estableciendo una base ordenada para que el equipo pueda comprender qué necesidades debía resolver RouteStock.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación de los módulos de Users y Stores cerró la brecha entre el diseño de arquitectura y la solución ejecutable, aportando endpoints verificables en Swagger que el resto del equipo pudo integrar sin ambigüedades.
+      </td>
+    </tr>
+    <!-- CRITERIO 3 -->
+    <tr>
+      <td rowspan="4"><strong>Comunicación comercial y persuasiva</strong></td>
+      <td>
+        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Contribución directa en el diseño y desarrollo de la Landing Page del proyecto.<br><br>
+        <strong>Avn2:</strong><br>
+        El módulo de autenticación implementado (sign-up / sign-in) habilita el acceso diferenciado por perfil comerciante/consumidor, siendo la puerta de entrada al flujo comercial completo de RouteStock.
+      </td>
+      <td>
+        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Se demostró la capacidad de simplificar el lenguaje técnico del proyecto y transformarlo en un mensaje comercial atractivo. La Landing Page comunica efectivamente la propuesta de valor de RouteStock.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación funcional de sign-up y sign-in confirmó que la propuesta de onboarding diferenciado por perfil es técnicamente viable, permitiendo comunicar al equipo y a stakeholders que la plataforma puede escalar hacia una base de usuarios segmentada desde su primera versión.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Participé en la definición del perfil de los segmentos objetivo y realicé entrevistas a usuarios de ambos segmentos, contribuyendo a identificar las necesidades reales del mercado para orientar la propuesta de valor de RouteStock.<br><br>
+        <strong>Avn2:</strong><br>
+        El módulo de Orders implementado materializa la propuesta de valor de RouteStock para el consumidor: permite colocar pedidos sobre productos de comercios locales, acercando la oferta del pequeño comercio a la demanda del usuario urbano de forma digital.
+      </td>
+      <td>
+        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
+        <strong>Avn1:</strong><br>
+        A través de las entrevistas que realicé pude validar la propuesta de valor de RouteStock con usuarios reales, confirmando la necesidad de una plataforma que digitalice los comercios locales.<br><br>
+        <strong>Avn2:</strong><br>
+        El módulo de Orders operativo demuestra que RouteStock puede sustentar un flujo de compra completo entre consumidores y comercios locales, lo cual fortalece la propuesta de valor ante futuros inversionistas o evaluadores del producto.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Sustentación de mi avance y defensa de los artefactos en el video de exposición de la entrega avn1.<br><br>
+        <strong>Avn2:</strong><br>
+        El módulo de Products implementado permite a los comerciantes gestionar su inventario (stock y precio) de forma digital, concretando la propuesta de valor de RouteStock para el segmento de bodegas y comercios locales.
+      </td>
+      <td>
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Logré adaptar mi lenguaje verbal para explicar la lógica detrás de los requerimientos y las decisiones de diseño UI, haciéndolo comprensible y directo para una audiencia de evaluadores técnicos y funcionales.<br><br>
+        <strong>Avn2:</strong><br>
+        La gestión digital de inventario implementada en el módulo de Products refuerza la propuesta comercial de RouteStock ante el segmento de comerciantes: ofrece una herramienta concreta para digitalizar su oferta, actualizar precios y controlar stock en tiempo real.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Desarrollé la presentación inicial del proyecto desde el Capítulo I, explicando la propuesta de SmartNeighbor y RouteStock. Además, contribuí en la formulación de épicas, algunas user stories y en el uso de información obtenida en entrevistas para reforzar la propuesta de valor del producto.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación de Stores con soporte de calificaciones (ratings) agrega un componente de confianza a la propuesta comercial de RouteStock: los consumidores pueden evaluar los comercios, generando un diferencial competitivo para la plataforma.
+      </td>
+      <td>
+        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Logré comunicar la propuesta de valor de RouteStock de manera clara y convincente, resaltando su importancia para digitalizar pequeños comercios y facilitar que los consumidores encuentren productos cercanos.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación de Stores con calificaciones agrega credibilidad a la propuesta comercial de RouteStock: un sistema de ratings operativo comunica a stakeholders que la plataforma considera mecanismos de confianza y reputación desde su primera versión del backend.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 **Contenido**
 

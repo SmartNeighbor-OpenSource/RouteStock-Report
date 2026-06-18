@@ -1119,6 +1119,108 @@ La Web Application (Frontend desarrollado en Angular) ha sido desplegada exitosa
 ##### 5.2.2.8 Team Collaboration Insights during Sprint
 
 
+#### 5.2.2 Sprint 2
+
+##### 5.2.2.1 Sprint Planning 2
+Este segundo Sprint se centró en el desarrollo y despliegue de la primera versión funcional de la Web Application de RouteStock, desarrollada en Angular Framework. El objetivo principal fue implementar los flujos de autenticación y el dashboard inicial del comerciante para la gestión de su inventario.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 02-05-2026 |
+| Time | 08:30 PM |
+| Location | Microsoft Teams / Discord (Reunión Virtual) |
+| Prepared By | Tello Quispe, Luis German |
+| Attendees | Cisneros Salas Luis Angel, Tello Quispe Luis German, Arrieta Quispe Alison Jimena, Alfaro Coveñas Louis Piero |
+| **Sprint n-1 Review Summary** | Se validó el Landing Page estático. El profesor sugirió corregir la herramienta de los Journey Maps y actualizar los diagramas C4, tareas que se integraron como deuda técnica para este sprint. |
+| **Sprint n-1 Retrospective Summary** | El equipo trabajó bien con GitHub, pero acordamos ser más rigurosos con el formato de *Conventional Commits* al codificar en Angular. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** deploying the first functional version of the RouteStock Web Application using Angular. **We believe it delivers** a secure and intuitive environment for merchants to register and add their first products. **This will be confirmed when** a user can successfully navigate from the login screen to the merchant dashboard and view the inventory form. |
+| Sprint 2 Velocity | 29 Story Points |
+| Sum of Story Points | 29 Story Points (US08 a US15) |
+
+##### 5.2.2.2 Aspect Leaders and Collaborators
+Matriz de responsabilidades asignadas durante el Sprint 2 para el desarrollo de la Web Application.
+
+| Team Member | GitHub Username | Angular Components & UI | TypeScript Logic & Routing | Deployment (Vercel) |
+| :--- | :--- | :--- | :--- | :--- |
+| Alfaro Coveñas, Louis Piero | LouisAlfaro | C | L | C |
+| Arrieta Quispe, Alison Jimena | alisoft08  | L | C | C |
+| Cisneros Salas, Luis Angel | LuisCS341 | C | C | L |
+| Tello Quispe, Luis German | luistello1739-web  | C | L | C |
+
+*(L = Leader, C = Collaborator)*
+
+##### 5.2.3.3 Sprint Backlog 3
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
+| US12 | Editar precio | T15 | Implementar endpoint PUT /products/{id}/price | Implementar formulario de registro con validaciones reactivas. | 4 | Alison A. | Done |
+| US13 | Eliminar producto | T16 | Implementar endpoint DELETE /products/{id} | Diferenciar flujo de registro entre comerciante y consumidor. | 3 | Luis T. | Done |
+| US14 | Marcar sin stock | T17 | Implementar endpoint PATCH /products/{id}/status | Implementar formulario de login con manejo de errores. | 3 | Louis A. | Done |
+| US15 | Buscar por nombre | T18 | Implementar endpoint GET /products?name={query} | Definir rutas protegidas y navegación entre vistas principales. | 3 | Luis T. | Done |
+| US16 | Explorar por categoría | T19 | Implementar endpoint GET /products?category={cat} | Implementar componente de detalle de comercio con productos. | 4 | Alison A. | Done |
+| US17 | Ver ubicación en Mapa | T20 | Implementar endpoint GET /stores/{id}/location | Implementar búsqueda por nombre y categoría con filtros básicos. | 3 | Luis C. | Done |
+
+##### 5.2.3.4 Development Evidence for Sprint Review
+Avances de implementación en el repositorio del Backend (RESTful API).
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/products` | `3a7f2b1c9d4e8f0a5b6c2d1e7f3a9b4c` | `feat: add register component` | Implementado formulario de registro con validaciones y diferenciación de roles. | `02/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/products` | `b4d8e2f1a3c7090d5e6f1b2c8d4e9a3f` | `feat: add login component` | Creado componente de login con manejo de errores y redirección por rol. | `04/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/inventory` | `c9e3a7b2d1f4086e8a9b3c5d2e7f1a4b` | `feat: configure app routing` | Definidas rutas protegidas y navegación principal entre módulos. | `07/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/search` | `d2f1c8a4b7e3095f69d1e6b6a8c8f2d7e` | `feat: add commerce detail view` | Implementada la vista de detalle de comercio mostrando productos disponibles. | `10/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/search` | `e5b6d9c8a2f1087a6c8d2e5f9b1a3c4d` | `feat: add product search bar` | Creada barra de búsqueda con filtros por nombre y categoría. | `12/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/stores` | `f1a3e7d2c9b4056b6f9a1d3e8c2b5f7a` | `feat: implement responsive navbar` | Navbar responsive con Angular Material integrado. | `14/06/2026` |
+
+##### Execution Evidence for Sprint Review
+Durante este Sprint, el equipo logró implementar y desplegar la primera versión del RESTful API de RouteStock utilizando Spring Boot. Se desarrollaron los principales endpoints para la gestión de productos, inventario, búsqueda y ubicación de comercios, los cuales fueron documentados con OpenAPI/Swagger y desplegados en Render. Asimismo, la Web Application fue actualizada para consumir dichos endpoints, logrando una integración funcional entre el frontend y el backend de la solución. 
+
+
+##### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo implementó el RESTful API de RouteStock utilizando Spring Boot con Gradle, desplegado en Render y documentado mediante Swagger UI. A continuación se listan los endpoints operativos consumidos por la Web Application:
+
+| Service Name | Endpoint | HTTP Method | Description |
+| :--- | :--- | :--- | :--- |
+| `AuthService` | `/api/v1/authentication/sign-up` | POST | Registro de nuevo usuario |
+| `AuthService` | `/api/v1/authentication/sign-in` | POST | Inicio de sesión de usuario |
+| `OrderService` | `/api/v1/orders` | GET | Listar órdenes |
+| `OrderService` | `/api/v1/orders` | POST | Crear una orden |
+| `OrderService` | `/api/v1/orders/{orderId}/status` | PATCH | Actualizar estado de una orden |
+| `OrderService` | `/api/v1/orders/{orderId}` | GET | Obtener orden por ID |
+| `ProductService` | `/api/v1/products` | GET | Listar o buscar productos |
+| `ProductService` | `/api/v1/products` | POST | Agregar un producto |
+| `ProductService` | `/api/v1/products/{productId}/stock` | PATCH | Actualizar stock del producto |
+| `ProductService` | `/api/v1/products/{productId}/price` | PATCH | Actualizar precio del producto |
+| `ProductService` | `/api/v1/products/{productId}` | GET | Obtener producto por ID |
+| `ProductService` | `/api/v1/products/{productId}` | DELETE | Eliminar un producto |
+| `UserService` | `/api/v1/users` | GET | Obtener todos los usuarios |
+| `UserService` | `/api/v1/users/{userId}` | GET | Obtener usuario por ID |
+| `StoreService` | `/api/v1/stores` | GET | Obtener todos los comercios |
+| `StoreService` | `/api/v1/stores` | POST | Registrar un comercio |
+| `StoreService` | `/api/v1/stores/{storeId}` | GET | Obtener comercio por ID |
+| `StoreService` | `/api/v1/stores/{storeId}` | PUT | Actualizar información del comercio |
+| `StoreService` | `/api/v1/stores/{storeId}/ratings` | POST | Calificar un comercio |
+
+
+##### 5.2.3.7 Software Deployment Evidence for Sprint Review
+- El RESTful API de RouteStock ha sido desplegado en Render conectado al repositorio RouteStock-Backend en GitHub. El despliegue se activa automáticamente con cada push a la rama main.
+- URL Pública del RESTful API: https://routestock-backend.onrender.com/swagger-ui/index.html
+
+- La base de datos PostgreSQL ha sido configurada como servicio en Render, con las variables de entorno correctamente definidas para la conexión con el backend.
+- La Web Application continúa desplegada en Vercel, actualizada para consumir los endpoints del RESTful API desplegado.
+URL Pública de la Web Application: 
+
+
+##### 5.2.3.8 Team Collaboration Insights during Sprint
+
+Todos los miembros del equipo han colaborado activamente en el repositorio del backend (RouteStock-Backend). Cada integrante lideró el desarrollo de los endpoints correspondientes a su bounded context asignado, aplicando GitFlow con ramas feature por funcionalidad y Conventional Commits en cada aporte. Se adjuntan las métricas de colaboración extraídas de GitHub. 
+
+
 ## **5.3 Validation Interviews**
 
 ### **5.3.1 Diseño de Entrevistas**

@@ -1215,6 +1215,7 @@ Durante el Sprint 3, el equipo implementó el RESTful API de RouteStock utilizan
 - La base de datos PostgreSQL ha sido configurada como servicio en Render, con las variables de entorno correctamente definidas para la conexión con el backend.
 - La Web Application continúa desplegada en Vercel, actualizada para consumir los endpoints del RESTful API desplegado.
 - URL Pública de la Web Application:
+`https://6a347a0578fb99aa73253dc7--stupendous-chebakia-b74217.netlify.app/`
 
 ![Backend Swagger](chapter1/img/backend_swagger.png)
 

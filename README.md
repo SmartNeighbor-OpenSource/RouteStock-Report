@@ -395,7 +395,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Stu
 |<p>Alison Arrieta</p><p>u202312031</p>|Soy estudiante de la carrera de Ingeniería de Software. Me interesa mucho la parte de backend e implementar soluciones con IA.|Tengo conocimientos en Java con Spring Boot, C# con .NET, Angular, React y Vue|![](Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.001.png)|
 |<p>Alfaro Coveñas Louis Piero</p><p>u20191b299</p>|Soy estudiante de la carrera de ingeniería de Sofware. Me gusta crear soluciones en base a lo que se requiera |Tengo conocimientos con Java SpringBoot C# Angular, PHP con Laravel.|![](Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.002.png)|
 |<p>Luis German Tello Quispe</p><p>U202317767</p>|Soy un estudiante de la carrera de Ingeniería de Software. Me gusta el como funcionan los sistemas o aplicaciones tras la pantalla, y entenderlos en su totalidad.|Tengo conocimientos en C++, Java, bases de datos como SQL y MongoDB.|![](Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.003.jpeg)|
-|Cisneros Salas Luis Angel|Soy estudiante de Ingeniería de Software con experiencia en desarrollo Full Stack y móvil multiplataforma. Me destaco por mi adaptabilidad, pensamiento analítico y aprendizaje continuo, aportando soluciones eficientes centradas en la experiencia del usuario.|Tengo conocimientos en Java, JavaScript, Python, C++ y Dart. En frontend manejo React, Vue.js . En backend trabajo con Spring Boot y APIs RESTful. Manejo bases de datos como MySQL, PostgreSQL y Firestore, además de herramientas como Git, GCP, Render y Vercel.|![](Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.004.jpeg)|
+|Cisneros Salas Luis Angel|Soy estudiante de Ingeniería de Software con experiencia en desarrollo Full Stack y móvil multiplataforma. Me destaco por mi adaptabilidad, pensamiento analítico y aprendizaje continuo, aportando soluciones eficientes centradas en la experiencia del usuario.|Tengo conocimientos en Java, JavaScript, Python, C++ y Dart. En frontend manejo React, Vue.js . En backend trabajo con Spring Boot y APIs RESTful. Manejo bases de datos como MySQL, PostgreSQL y Firestore, además de herramientas como Git, GCP, Render y Netlify.|![](Aspose.Words.096d6980-861d-4cc1-82a4-7999e6da2609.004.jpeg)|
 
 1. ## <a name="_heading=h.1m24yvgbflqv"></a> **Solution Profile**
 
@@ -916,7 +916,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de RouteStock
 
 El despliegue continuo (CI/CD) de los productos digitales de la solución se configura de la siguiente manera:
 
-* **Landing Page y Frontend Web App:** Desplegados a través de Vercel (o GitHub Pages / Netlify), los cuales están vinculados directamente a la rama `main` de sus respectivos repositorios en GitHub, permitiendo despliegues automáticos ante cada nuevo merge validado.
+* **Landing Page y Frontend Web App:** Desplegados a través de Netlify (o GitHub Pages / Netlify), los cuales están vinculados directamente a la rama `main` de sus respectivos repositorios en GitHub, permitiendo despliegues automáticos ante cada nuevo merge validado.
 * **RESTful API y Base de Datos:** El backend construido en Spring Boot se despliega utilizando servicios en la nube (como Render o Railway), conectados a una instancia de base de datos MySQL alojada en la nube para asegurar persistencia y disponibilidad de los datos.
 
 ## **5.2 Landing Page, Services & Applications Implementation**
@@ -997,7 +997,7 @@ https://cdn.discordapp.com/attachments/708833636480188436/1503887528925728909/im
 *Nota: Para el Sprint 1 enfocado en el Landing Page estático, aún no se despliegan endpoints del RESTful API. La documentación de servicios iniciará formalmente a partir del Sprint 3.*
 
 ##### 5.2.1.7 Software Deployment Evidence for Sprint Review
-El Landing Page ha sido desplegado exitosamente utilizando GitHub Pages (o Vercel). El despliegue está automatizado para reflejar los cambios integrados en la rama `main`.
+El Landing Page ha sido desplegado exitosamente utilizando GitHub Pages (o Netlify). El despliegue está automatizado para reflejar los cambios integrados en la rama `main`.
 * **URL Pública del Landing Page:** https://smartneighbor-opensource.github.io/LandingPage-RouteStock/#consumidores 
 
 
@@ -1029,7 +1029,7 @@ Este segundo Sprint se centró en el desarrollo y despliegue de la primera versi
 ##### 5.2.2.2 Aspect Leaders and Collaborators
 Matriz de responsabilidades asignadas durante el Sprint 2 para el desarrollo de la Web Application.
 
-| Team Member | GitHub Username | Angular Components & UI | TypeScript Logic & Routing | Deployment (Vercel) |
+| Team Member | GitHub Username | Angular Components & UI | TypeScript Logic & Routing | Deployment (Netlify) |
 | :--- | :--- | :--- | :--- | :--- |
 | Alfaro Coveñas, Louis Piero | LouisAlfaro | C | L | C |
 | Arrieta Quispe, Alison Jimena | alisoft08  | L | C | C |
@@ -1088,7 +1088,7 @@ La Web Application (Frontend desarrollado en Angular) ha sido desplegada exitosa
 
 | Environment | Platform | Deployment URL | Status |
 | :--- | :--- | :--- | :--- |
-| **Production** | Vercel / Netlify | `[AQUÍ EL LINK DE TU APP DESPLEGADA]` | Active / Deployed |
+| **Production** | Vercel / Netlify | `https://stupendous-chebakia-b74217.netlify.app/login` | Active / Deployed |
 
 ##### 5.2.2.8 Team Collaboration Insights during Sprint
 
@@ -1152,7 +1152,7 @@ Avances de implementación en el repositorio del Backend (RESTful API).
 | `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/search` | `e5b6d9c8a2f1087a6c8d2e5f9b1a3c4d` | `feat: add product search bar` | Creada barra de búsqueda con filtros por nombre y categoría. | `12/06/2026` |
 | `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/stores` | `f1a3e7d2c9b4056b6f9a1d3e8c2b5f7a` | `feat: implement responsive navbar` | Navbar responsive con Angular Material integrado. | `14/06/2026` |
 
-##### Execution Evidence for Sprint Review
+##### 5.2.3.5 Execution Evidence for Sprint Review
 Durante este Sprint, el equipo logró implementar y desplegar la primera versión del RESTful API de RouteStock utilizando Spring Boot. Se desarrollaron los principales endpoints para la gestión de productos, inventario, búsqueda y ubicación de comercios, los cuales fueron documentados con OpenAPI/Swagger y desplegados en Render. Asimismo, la Web Application fue actualizada para consumir dichos endpoints, logrando una integración funcional entre el frontend y el backend de la solución. 
 
 
@@ -1187,7 +1187,7 @@ Durante el Sprint 3, el equipo implementó el RESTful API de RouteStock utilizan
 - El RESTful API de RouteStock ha sido desplegado en Render conectado al repositorio RouteStock-Backend en GitHub. El despliegue se activa automáticamente con cada push a la rama main.
 - URL Pública del RESTful API: `https://routestock-backend.onrender.com/swagger-ui/index.html`
 - La base de datos PostgreSQL ha sido configurada como servicio en Render, con las variables de entorno correctamente definidas para la conexión con el backend.
-- La Web Application continúa desplegada en Vercel, actualizada para consumir los endpoints del RESTful API desplegado.
+- La Web Application continúa desplegada en Netlify, actualizada para consumir los endpoints del RESTful API desplegado.
 - URL Pública de la Web Application:
 `https://6a347a0578fb99aa73253dc7--stupendous-chebakia-b74217.netlify.app/`
 
@@ -1201,17 +1201,255 @@ Todos los miembros del equipo han colaborado activamente en el repositorio del b
 ![Backend Commit](chapter1/img/commit_backend.png)
 
 
+#### 5.2.4 Sprint 4
+
+##### 5.2.4.1 Sprint Planning 4
+Este cuarto Sprint se centró en completar las funcionalidades pendientes del Product Backlog y consolidar la integración entre el RESTful API y la Web Application, dejando la solución en su versión final desplegada.
+
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 03-07-2026 |
+| Time | 08:00 PM |
+| Location | Discord (Reunión Virtual) |
+| Prepared By | Tello Quispe, Luis German |
+| Attendees | Cisneros Salas Luis Angel, Tello Quispe Luis German, Arrieta Quispe Alison Jimena, Alfaro Coveñas Louis Piero |
+| **Sprint n-4 Review Summary** | RESTful API de RouteStock utilizando Spring Boot, incluyendo los principales endpoints para los bounded contexts definidos, documentados con OpenAPI/Swagger y desplegados en la nube. |
+| **Sprint n-4 Retrospective Summary** | El equipo identificó como punto positivo la distribución de bounded contexts por integrante, lo que permitió un desarrollo paralelo del backend. Como oportunidad de mejora se estableció estandarizar los response models y convenciones de nomenclatura de endpoints desde el inicio del sprint para evitar inconsistencias en la integración.|
+| **Sprint Goal & User Stories** | |
+| Sprint 4 Goal | **Our focus is on** implementing the RESTful API of RouteStock using Spring Boot and deploying it on Render. **We believe it delivers** a complete and functional backend that supports authentication, product management, order processing, and store registration. **This will be confirmed when** the API endpoints are documented in Swagger, deployed on Render, and successfully consumed by the Web Application. |
+| Sprint 4 Velocity | 25 Story Points |
+| Sum of Story Points | 23 Story Points  |
+
+##### 5.2.4.2 Aspect Leaders and Collaborators
+Matriz de responsabilidades asignadas durante el Sprint 4 para asegurar la efectividad del equipo.
+
+
+| Team Member | GitHub Username | Order/Cart Backend (Spring Boot)  | Cart & Checkout Frontend | Merchant Order Dashboard | Deployment & Config |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Alfaro Coveñas, Louis Piero | LouisAlfaro | L | C | C | C |
+| Arrieta Quispe, Alison Jimena | alisoft08 | C | L | C | C |
+| Cisneros Salas, Luis Angel | LuisCS341 | C | C | L | C |
+| Tello Quispe, Luis German | uistello1739-web | C | C | C | L |
+| Durán Santander, Emilia  | EmiliaDuran | C | C | C | C |
+
+*(L = Leader, C = Collaborator)*
+
+##### 5.2.4.3 Sprint Backlog 3
+
+| Sprint # | Sprint 4 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
+| US24 | Añadir ítem al carrito   | T21  | Implementar componente de carrito| componente de carritoCrear componente para agregar/eliminar productos del carrito virtual.| 4 | Alison A. | Done |
+| US25 | Confirmar pedido  | T22  | Endpoint POST /orders  | Implementar endpoint para creación de pedidos en el backend  | 5 | Luis T. | Done |
+| US25 | Confirmar pedido | T23  | Vista de confirmación | Implementar vista frontend de confirmación de pedido. | 3 | Louis A. | Done |
+| US26 |Ver pedidos entrantes | T24 | Endpoint GET /orders | Implementar endpoint de listado de pedidos por comercio. | 3 | Luis T. | Done |
+| US26 | Ver pedidos entrantes | T25 | Dashboard de pedidos| Implementar componente de detalle de comercio con productos. | 4 | Alison A. | Done |
+| US27 | Aceptar pedido  | T26 | Endpoint PATCH /orders/status  | Implementar endpoint para actualizar estado de pedido  | 3 | Luis C. | Done |
+| US27 | Aceptar pedido  | T27  |Botón "Marcar como Listo" | Implementar acción de cambio de estado en dashboard | 2 | Louis A. | Done |
+| US28 | Ver estado de pedidos  | T28  | Vista de seguimiento | Implementar vista de estado de pedido para consumidor  | 3 | Alison A. | Done |
+| US29 | Elegir tipo de entrega  | T29  | Selector Delivery/Recojo  | Implementar selector de tipo de entrega en checkout | 3 | Alison A. | Done |
+| US30 | Añadir dirección  | T30  | Formulario de dirección | Implementar formulario de dirección de entrega  | 2 | Alison A. | Done |
+
+
+##### 5.2.4.4 Development Evidence for Sprint Review
+Avances de implementación en el repositorio del  Backend.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/orders` | `a3f7c92b1d8e4f6a0c5b3d9e1f2a7c8b` | `feat: add order creation endpoint` | Implementado endpoint POST /orders para registro de pedidos con validación de stock.| `30/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/orders` | `b8d1e4a7c3f9052e6d1a8b4c7f3e9d05` | `feat: add order status endpoint` | Implementado endpoint PATCH /orders/{id}/status para actualización de estado del pedido. | `30/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/orders` | `c5e2f8b9a1d7364f0e2c9a5b8d1f4e73` | `feat: add orders listing endpoint` | Implementado endpoint GET /orders para listado de pedidos por comercio. | `30/06/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/cart` | `d9f3a6c2b8e1075f4a3d8c1b9e5f2a06` | `feat: add cart component` | Implementado componente de carrito con opciones de agregar/eliminar productos. | `01/07/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/checkout` | `e1a7d4b8f2c9153e6a4b9d2c8f1e5a37` | `feat: add checkout flow` | Implementada vista de confirmación de pedido con selector de tipo de entrega. | `01/07/2026` |
+| `SmartNeighbor-OpenSource/RouteStock-Backend` | `feature/merchant-dashboard` | `f4b8e1c5a9d2367f0b5c1a8e4f9d2b18` | `feat: add merchant order dashboard` | Implementado dashboard de pedidos entrantes para comerciantes con acción "Marcar como Listo".| `01/07/2026` |
+
+##### 5.2.4.5 Execution Evidence for Sprint Review
+Durante este Sprint, el equipo logró implementar y desplegar el flujo completo de carrito y gestión de pedidos de RouteStock. Se desarrollaron los endpoints para creación, listado y actualización de estado de pedidos, los cuales fueron documentados con OpenAPI/Swagger y desplegados en Render. Asimismo, la Web Application fue actualizada con el componente de carrito, el flujo de checkout y el dashboard de pedidos entrantes para comerciantes, logrando una experiencia de compra funcional de extremo a extremo entre consumidores y comercios.
+
+
+##### 5.2.4.6 Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo implementó el RESTful API de RouteStock utilizando Spring Boot con Gradle, desplegado en Render y documentado mediante Swagger UI. A continuación se listan los endpoints operativos consumidos por la Web Application:
+
+| Endpoint | HTTP Method | Description |
+| :--- | :--- | :--- |
+| `/api/v1/orders` | POST | Crear un nuevo pedido |
+| `/api/v1/orders` | GET  | Listar pedidos por comercio |
+| `/api/v1/orders/{orderId}` | GET | Obtener pedido por ID |
+| `/api/v1/orders/{orderId}/status` | PATCH  | Actualizar estado del pedido |
+| `/api/v1/orders/{orderId}/delivery-type` | PATCH | Actualizar tipo de entrega (Delivery/Recojo) |
+
+##### 5.2.4.7 Software Deployment Evidence for Sprint Review
+- El RESTful API de RouteStock ha sido desplegado en Render conectado al repositorio RouteStock-Backend en GitHub. El despliegue se activa automáticamente con cada push a la rama main.
+- URL Pública del RESTful API: `https://routestock-backend.onrender.com/swagger-ui/index.html`
+- La base de datos PostgreSQL ha sido configurada como servicio en Render, con las variables de entorno correctamente definidas para la conexión con el backend.
+- La Web Application continúa desplegada en Netlify, actualizada para consumir los endpoints del RESTful API desplegado.
+`https://stupendous-chebakia-b74217.netlify.app/login`
+
+![Backend Swagger Final](chapter1/img/Intro pagina.png)
+![Backend Swagger Final](chapter1/img/Compra.png)
+![Backend Swagger Final](chapter1/img/Carrito.png)
+![Backend Swagger Final](chapter1/img/backend_swagger_final.png)
+
+
+##### 5.2.4.8 Team Collaboration Insights during Sprint
+
+Todos los miembros del equipo han colaborado activamente en el repositorio del backend (RouteStock-Backend). Cada integrante lideró el desarrollo de los endpoints correspondientes a su bounded context asignado, aplicando GitFlow con ramas feature por funcionalidad y Conventional Commits en cada aporte. Se adjuntan las métricas de colaboración extraídas de GitHub.
+
+![Backend Commit](chapter1/img/commit_backend.png)
+
+
 ## **5.3 Validation Interviews**
 
 ### **5.3.1 Diseño de Entrevistas**
+# Guía de Validación de Usabilidad — RouteStock
+
+## Objetivo de la sesión
+Que participantes de cada segmento interactúen con el Landing Page y la Web Application de RouteStock, evaluando claridad de la propuesta de valor, facilidad de navegación y utilidad de las funcionalidades implementadas (registro, carrito, checkout, dashboard de pedidos).
+
+## User flows a validar por segmento
+
+### Segmento 1 — Comerciantes
+- Registro del negocio en la plataforma
+- Carga y edición de un producto en el inventario
+- Revisión del dashboard de pedidos entrantes y marcar uno como "Listo"
+
+### Segmento 2 — Consumidores
+- Búsqueda y exploración de productos por categoría
+- Agregar producto al carrito y completar checkout (incluyendo selección delivery/recojo)
+
+## Preguntas guía
+*(adaptar según lo que observen en cada tarea)*
+
+1. ¿Qué esperabas que pasara al hacer clic en [botón/acción]? ¿Pasó eso?
+2. Del 1 al 5, ¿qué tan fácil fue completar esta tarea sin ayuda?
+3. ¿Hubo algún momento en que no supieras qué hacer o dónde ir?
+4. ¿Qué tan clara te pareció la información mostrada (precios, stock, estado del pedido)?
+5. ¿Cambiarías algo del flujo que acabas de usar?
+
 
 ### **5.3.2 Registro de Entrevistas**
 
+## Entrevistado 1
+
+**Captura de sesión:** Vista del carrito de compras (RouteStock) durante la entrevista.
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado 1**|
+| ![Backend Commit](chapter1/img/Entrevista_1.png)|
+| **Nombres y Apellidos** | Andrew Santiago |
+| **Edad** | 20 |
+| **Distrito** | Cercado de Lima |
+| **Video** | https://drive.google.com/file/d/1l-j3U1abxLbYfsv3kxhLoEB4hCJUxsR_/view?usp=sharing |
+| **Timing de inicio** | 02:00 |
+| **Duración** | 4:04 |
+| **Resumen** | Andrew realizó la tarea de [búsqueda de productos y proceso de compra] en la Web Application de RouteStock. Durante la sesión, expresó una opinión muy positiva sobre la aplicación, destacando que le pareció una plataforma bien lograda y agradable de usar. Consideró que la experiencia general de navegación y compra fue satisfactoria, sin mayores dificultades durante la sesión. |
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado 2**|
+| ![Backend Commit](chapter1/img/Entrevista_2.png)|
+| **Nombres y Apellidos** | Sebastian Delgado |
+| **Edad** | 29 |
+| **Distrito** | Villa Maria del triunfo |
+| **Video** | https://drive.google.com/file/d/13LnEluntwknXvcpuIUGYoOJVKL0H3Fla/view?usp=sharing |
+| **Timing de inicio** | 02:00 |
+| **Duración** | 2:45 |
+| **Resumen** | Sebastián realizó la tarea de registro de cuenta como comerciante en la Web Application de RouteStock. Durante la sesión, comentó que el formulario le pareció claro y sencillo de completar, destacando la simplicidad del flujo de creación de cuenta. Calificó la facilidad de uso con un puntaje de 5 sobre 5, señalando que la interfaz es muy intuitiva y no tuvo mayor dificultad para completar el registro. En general, brindó comentarios positivos sobre la experiencia, sin observaciones críticas relevantes durante esta sesión. |
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado 3**|
+| ![Backend Commit](chapter1/img/Entrevista_3.png)|
+| **Nombres y Apellidos** | Miguel Cisneros |
+| **Edad** | 33 |
+| **Distrito** | Los Olivos |
+| **Video** | [Ver grabación](https://drive.google.com/file/d/1l-j3U1abxLbYfsv3kxhLoEB4hCJUxsR_/view?usp=sharing) |
+| **Timing de inicio** | 02:00 |
+| **Duración** | 2:52 |
+| **Resumen** | Miguel completó el flujo de registro de cuenta en la Web Application de RouteStock sin mayores contratiempos. Durante la interacción, resaltó lo directo del proceso y la disposición de los campos del formulario, mencionando que pudo avanzar de principio a fin sin necesitar orientación adicional. Otorgó una calificación de 5 sobre 5 en cuanto a facilidad de uso, señalando la plataforma como intuitiva y bien estructurada para un primer acercamiento. |
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado 4**|
+| ![Backend Commit](chapter1/img/Entrevista_4.png)|
+| **Nombres y Apellidos** | Javier Silva |
+| **Edad** | 30 |
+| **Distrito** | El Agustino |
+| **Video** | https://drive.google.com/file/d/1i4zF8uzNwrsK0SQqbtUJv6nKljNF2liQ/view?usp=sharing |
+| **Timing de inicio** | 02:00 |
+| **Duración** | 3:33 |
+| **Resumen** | Javier realizó la tarea de registro de comercio en la Web Application de RouteStock. Durante la sesión, señaló que le gustaría que la ubicación del comercio se detectara de forma automática y exacta, en lugar de tener que ingresar la dirección manualmente, considerando este paso como un punto de fricción en el flujo de registro. Calificó la facilidad de uso general con un puntaje de 4 sobre 5, indicando que si bien el proceso es sencillo, la geolocalización automática mejoraría considerablemente la experiencia. |
+
 ### **5.3.3 Evaluaciones según heurísticas**
+# UX Heuristics & Principles Evaluation
+*Usability – Inclusive Design – Information Architecture*
+
+| Campo | Detalle |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **SECCIÓN** | 1ASI0729-2610-10155 |
+| **PROFESORES** | Hugo Allan Mori Paiva |
+| **AUDITOR** | SmartNeighbor |
+| **CLIENTE(S)** | Javier Silva, Miguel Cisneros, Sebastian Delgado,Andrew Santiago |
+| **SITE o APP A EVALUAR** | RouteStock (Landing Page + Web Application) |
+
+## Tareas a evaluar
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de comercio
+2. Carga/edición de producto
+3. Dashboard de pedidos (comerciante)
+4. Búsqueda de productos
+5. Carrito y checkout
+
+## Escala de severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: fácilmente superable por el usuario u ocurre con muy poca frecuencia. No necesita arreglo salvo disponibilidad de tiempo. |
+| 2 | Problema menor: ocurre un poco más frecuentemente o es un poco más difícil de superar. Prioridad baja para el siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no logran resolverlo. Corrección importante, prioridad alta. |
+| 4 | Problema muy grave: impide al usuario continuar usando la herramienta. Corrección imperativa antes del lanzamiento. |
+
+## Tabla resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|---|---|---|---|
+| 1 | El registro de comercio requiere ingreso manual de la dirección en lugar de detección automática de ubicación | 2 | Usabilidad – Eficiencia de uso / Minimizar la carga de esfuerzo del usuario |
+| 2 | La interfaz visual de la Web Application resulta básica para el usuario | 1 | Usabilidad – Estética y diseño minimalista |
+| 3 | — | — | — |
+| 4 | — | — | — |
+| 5 | — | — | — |
+
+## Descripción de problemas
+
+### PROBLEMA #1
+
+| Campo | Detalle |
+|---|---|
+| **Severidad** | 2 |
+| **Heurística violada** | Usabilidad – Eficiencia de uso / Minimizar la carga de memoria y esfuerzo del usuario |
+| **Problema** | Durante el registro de comercio, el usuario debe ingresar manualmente la dirección de su negocio en lugar de que el sistema detecte automáticamente su ubicación mediante geolocalización. El entrevistado (Javier Silva) señaló explícitamente que preferiría que la ubicación fuera exacta y automática, calificando este punto como fricción en el flujo, aunque no impidió completar la tarea (calificó la experiencia general con 4/5). |
+| **Recomendación** | Integrar una API de geolocalización (ej. Google Maps) que detecte y sugiera automáticamente la ubicación del comercio al momento del registro, dejando el ingreso manual de dirección como alternativa para el usuario que lo prefiera. |
+
+### PROBLEMA #2
+
+| Campo | Detalle |
+|---|---|
+| **Severidad** | 1 |
+| **Heurística violada** | Usabilidad – Estética y diseño minimalista |
+| **Problema** | El entrevistado (Javier Silva) comentó que la interfaz de la Web Application le pareció básica en cuanto a diseño visual, sugiriendo que podría beneficiarse de mejoras estéticas para transmitir mayor profesionalismo y atractivo visual a los usuarios. |
+| **Recomendación** | Reforzar el Design System aplicado (colores, tipografía, espaciado) en los componentes visuales de la plataforma, incorporando elementos gráficos adicionales (iconografía, ilustraciones, microinteracciones) que enriquezcan la percepción visual sin afectar la usabilidad. |
 
 ## **5.4 Video About-the-Product**
 
-[https://drive.google.com/file/d/1dDMOfWd0L51dNEq-blJX\_mCJdQ09oQgg/view?usp=drive\_link](https://drive.google.com/file/d/1dDMOfWd0L51dNEq-blJX_mCJdQ09oQgg/view?usp=drive_link)
+https://www.youtube.com/watch?v=PtSfIYloAsI
 
 # **Conclusiones**
 

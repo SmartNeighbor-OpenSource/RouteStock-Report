@@ -34,25 +34,80 @@ Luis Angel Cisneros Salas (U20211B198)
 #
 # <a name="_heading=h.nsca8d7rezbs"></a><a name="_heading=h.8gxu27autull"></a>**Registro de Versiones del Informe**
 
+| Versión | Fecha | Autor | Descripción |
+|---------|-------|-------|-------------|
+| 1.0 | 10/04/2026 | Luis Angel Cisneros Salas | Creación del documento base. Redacción del Capítulo I: Startup Profile, descripción de la startup y perfiles de los integrantes. |
+| 1.1 | 22/04/2026 | Emilia Durán Santander | Desarrollo del Solution Profile: Antecedentes, problemática y formulación de los Segmentos Objetivo. |
+| 1.2 | 05/05/2026 | Alison Arrieta | Adición del Capítulo II: Registro de las primeras entrevistas y análisis de competidores (Competitor Analysis). |
+| 1.3 | 18/05/2026 | Luis German Tello Quispe | Desarrollo del Lean UX Process, creación de User Personas, User Task Matrix y Customer Journey Maps. |
+| 1.4 | 25/05/2026 | Alfaro Coveñas, Louis Piero | Creación del Product Backlog, redacción de User Stories y diseño del Impact Mapping. Revisión previa para el hito TB1. |
+| 2.0 | 05/06/2026 | Luis Angel Cisneros Salas | Adición del Capítulo de Arquitectura: Diagramas de contexto, contenedores y definición de los Bounded Contexts. |
+| 2.1 | 15/06/2026 | Emilia Durán Santander | Actualización del informe con los diagramas de Base de Datos, especificaciones de la API y diseño de endpoints. |
+| 2.2 | 24/06/2026 | Luis German Tello Quispe | Incorporación de la entrevista faltante del Segmento 1 y correcciones en los enlaces de video a Microsoft Stream. |
+| 2.3 | 01/07/2026 | Alison Arrieta | Redacción del Capítulo V: Validation Interviews, ejecución del Usability Testing y llenado de las tablas de evaluación por heurísticas. |
+| 2.4 | 03/07/2026 | Luis Angel Cisneros Salas | Documentación del Project Report Collaboration Insights con capturas de pantalla reales de commits en GitHub. |
+| 3.0 | 05/07/2026 | Alfaro Coveñas, Louis Piero | Consolidación final para TB2: Actualización de la carátula al ciclo 2026-10, inserción de videos de presentación y revisión de ortografía/formato de todo el documento. |
 
-|Versión|Fecha|Autor|Descripción|
-| :- | :- | :- | :- |
-|1\.0 Avn1|23/04/2026|<p>Luis German Tello Quispe</p><p></p><p>Luis Angel Cisneros</p><p></p><p>Alfaro Coveñas Louis Piero</p><p></p><p>Alison Jimena Arrieta Quispe</p>|<p>[Contenido	4](#_heading=h.nsca8d7rezbs)</p><p>[Registro de Versiones del Informe	4](#_heading=h.8gxu27autull)</p><p>[Project Report Collaboration Insights	4](#_heading=h.iqfc12at5bpt)</p><p>[Contenido	4](#_heading=h.wkpb2ihpzcry)</p><p>[Student Outcome	4](#_heading=h.nbg6pah72qg3)</p><p>[1.](#_heading=h.iv3t72wpl8ge)[	](#_heading=h.iv3t72wpl8ge)[Capítulo I: Introducción	4](#_heading=h.iv3t72wpl8ge)</p><p>[1.1](#_heading=h.cef4nj5tp5jz)[	](#_heading=h.cef4nj5tp5jz)[Startup Profile	4](#_heading=h.cef4nj5tp5jz)</p><p>[1.1.1](#_heading=h.u8z3eha1kjlr)[	](#_heading=h.u8z3eha1kjlr)[Descripción de la Startup	4](#_heading=h.u8z3eha1kjlr)</p><p>[1.1.2](#_heading=h.so7ggpcn42dv)[	](#_heading=h.so7ggpcn42dv)[Perfiles de integrantes del equipo	4](#_heading=h.so7ggpcn42dv)</p><p>[1.2](#_heading=h.1m24yvgbflqv)[	](#_heading=h.1m24yvgbflqv)[Solution Profile	4](#_heading=h.1m24yvgbflqv)</p><p>[1.2.1](#_heading=h.6jokok7g5pjs)[	](#_heading=h.6jokok7g5pjs)[Antecedentes y problemática	4](#_heading=h.6jokok7g5pjs)</p><p>[1.2.2](#_heading=h.aq79i3msu58b)[	](#_heading=h.aq79i3msu58b)[Lean UX Process	4](#_heading=h.aq79i3msu58b)</p><p>[1.3](#_heading=h.u9rq93k9sjtu)[	](#_heading=h.u9rq93k9sjtu)[Segmentos objetivo	4](#_heading=h.u9rq93k9sjtu)</p><p>[2.](#_heading=h.mpt88vqezrd5)[	](#_heading=h.mpt88vqezrd5)[Capítulo II: Requirements Elicitation & Analysis	4](#_heading=h.mpt88vqezrd5)</p><p>[2.1](#_heading=h.ljhxf313n4wx)[	](#_heading=h.ljhxf313n4wx)[Competidores	4](#_heading=h.ljhxf313n4wx)</p><p>[2.1.1](#_heading=h.ujj48hrqdi0c)[	](#_heading=h.ujj48hrqdi0c)[Análisis competitivo	4](#_heading=h.ujj48hrqdi0c)</p><p>[2.1.2](#_heading=h.my5j2aczngvl)[	](#_heading=h.my5j2aczngvl)[Estrategias y tácticas frente a competidores	4](#_heading=h.my5j2aczngvl)</p><p>[2.2](#_heading=h.kvwvqspqui7h)[	](#_heading=h.kvwvqspqui7h)[Entrevistas	5](#_heading=h.kvwvqspqui7h)</p><p>[2.2.1](#_heading=h.7ese9n6lynt)[	](#_heading=h.7ese9n6lynt)[Diseño de entrevistas	5](#_heading=h.7ese9n6lynt)</p><p>[2.2.2](#_heading=h.okh2o93lng7c)[	](#_heading=h.okh2o93lng7c)[Registro de entrevistas	5](#_heading=h.okh2o93lng7c)</p><p>[2.2.3](#_heading=h.o04xobkxbyxf)[	](#_heading=h.o04xobkxbyxf)[Análisis de entrevistas	5](#_heading=h.o04xobkxbyxf)</p><p>[2.3](#_heading=h.5a8vg9lw2y2c)[	](#_heading=h.5a8vg9lw2y2c)[Needfinding	5](#_heading=h.5a8vg9lw2y2c)</p><p>[2.3.1](#_heading=h.t3o44d82qj3a)[	](#_heading=h.t3o44d82qj3a)[User Personas	5](#_heading=h.t3o44d82qj3a)</p><p>[2.3.2](#_heading=h.lijtivpgh7c5)[	](#_heading=h.lijtivpgh7c5)[User Task Matrix	5](#_heading=h.lijtivpgh7c5)</p><p>[2.3.3](#_heading=h.ll58dvw5y4kr)[	](#_heading=h.ll58dvw5y4kr)[User Journey Mapping	5](#_heading=h.ll58dvw5y4kr)</p><p>[2.3.4](#_heading=h.g6ujnqjos6ot)[	](#_heading=h.g6ujnqjos6ot)[Empathy Mapping	5](#_heading=h.g6ujnqjos6ot)</p><p>[2.4](#_heading=h.ne223vmjcl1k)[	](#_heading=h.ne223vmjcl1k)[Big Picture Event Storming	5](#_heading=h.ne223vmjcl1k)</p><p>[2.5](#_heading=h.8x2fe8afchzg)[	](#_heading=h.8x2fe8afchzg)[Ubiquitous Language	5](#_heading=h.8x2fe8afchzg)</p><p>[3.](#_heading=h.z0puptyhajil)[	](#_heading=h.z0puptyhajil)[Capítulo III: Requirements Specification	5](#_heading=h.z0puptyhajil)</p><p>[3.1](#_heading=h.ninegv5ehvr6)[	](#_heading=h.ninegv5ehvr6)[User Stories	5](#_heading=h.ninegv5ehvr6)</p><p>[3.2](#_heading=h.60m5bn8l7hr1)[	](#_heading=h.60m5bn8l7hr1)[Impact Mapping	5](#_heading=h.60m5bn8l7hr1)</p><p>[3.3](#_heading=h.zg59gto95pem)[	](#_heading=h.zg59gto95pem)[Product Backlog	5](#_heading=h.zg59gto95pem)</p><p>[4.](#_heading=h.ftlgdwye8mrx)[	](#_heading=h.ftlgdwye8mrx)[Capítulo IV: Product Design	5](#_heading=h.ftlgdwye8mrx)</p><p>[4.1](#_heading=h.i1rqnvvb3607)[	](#_heading=h.i1rqnvvb3607)[Style Guidelines	5](#_heading=h.i1rqnvvb3607)</p><p>[4.1.1](#_heading=h.ibxm6lyctd1o)[	](#_heading=h.ibxm6lyctd1o)[General Style Guidelines	5](#_heading=h.ibxm6lyctd1o)</p><p>[4.1.2](#_heading=h.apxm94j2hm3i)[	](#_heading=h.apxm94j2hm3i)[Web Style Guidelines	5](#_heading=h.apxm94j2hm3i)</p><p>[4.2](#_heading=h.1wnlsnvmal0)[	](#_heading=h.1wnlsnvmal0)[Information Architecture	5](#_heading=h.1wnlsnvmal0)</p><p>[4.2.1](#_heading=h.qdb0mttcqmkw)[	](#_heading=h.qdb0mttcqmkw)[Organization Systems	5](#_heading=h.qdb0mttcqmkw)</p><p>[4.2.2](#_heading=h.yzxfenmkk40k)[	](#_heading=h.yzxfenmkk40k)[Labeling Systems	5](#_heading=h.yzxfenmkk40k)</p><p>[4.2.3](#_heading=h.l9q26x80sjql)[	](#_heading=h.l9q26x80sjql)[SEO Tags and Meta Tags	5](#_heading=h.l9q26x80sjql)</p><p>[4.2.4](#_heading=h.mv3rtgxu1jz1)[	](#_heading=h.mv3rtgxu1jz1)[Searching Systems	6](#_heading=h.mv3rtgxu1jz1)</p><p>[4.2.5](#_heading=h.2hipzstl6721)[	](#_heading=h.2hipzstl6721)[Navigation Systems	6](#_heading=h.2hipzstl6721)</p><p>[4.3](#_heading=h.rojhptn4iwi)[	](#_heading=h.rojhptn4iwi)[Landing Page UI Design	6](#_heading=h.rojhptn4iwi)</p><p>[4.3.1](#_heading=h.1d6yrvhnxfvs)[	](#_heading=h.1d6yrvhnxfvs)[Landing Page Wireframe	6](#_heading=h.1d6yrvhnxfvs)</p><p>[4.3.2](#_heading=h.8ynxe0wd3cc4)[	](#_heading=h.8ynxe0wd3cc4)[Landing Page Mock-up	6](#_heading=h.8ynxe0wd3cc4)</p><p>[4.4](#_heading=h.jo7z03iywcxs)[	](#_heading=h.jo7z03iywcxs)[Web Applications UX/UI Design	6](#_heading=h.jo7z03iywcxs)</p><p>[4.4.1](#_heading=h.xcw6j978w1x1)[	](#_heading=h.xcw6j978w1x1)[Web Applications Wireframes	6](#_heading=h.xcw6j978w1x1)</p><p>[4.4.2](#_heading=h.l9fkgpdvlhvm)[	](#_heading=h.l9fkgpdvlhvm)[Web Applications Wireflow Diagrams	6](#_heading=h.l9fkgpdvlhvm)</p><p>[4.4.3](#_heading=h.wo40dt7nxvm)[	](#_heading=h.wo40dt7nxvm)[Web Applications Mock-ups	6](#_heading=h.wo40dt7nxvm)</p><p>[4.4.4](#_heading=h.mye49oa1d0ib)[	](#_heading=h.mye49oa1d0ib)[Web Applications User Flow Diagrams	6](#_heading=h.mye49oa1d0ib)</p><p>[4.5](#_heading=h.dqkl1v9s4wrd)[	](#_heading=h.dqkl1v9s4wrd)[Web Applications Prototyping	6](#_heading=h.dqkl1v9s4wrd)</p><p>[4.6](#_heading=h.dsoyukexk86z)[	](#_heading=h.dsoyukexk86z)[Domain-Driven Software Architecture	6](#_heading=h.dsoyukexk86z)</p><p>[4.6.1](#_heading=h.7bmjrhaitftm)[	](#_heading=h.7bmjrhaitftm)[Design-Level Event Storming	6](#_heading=h.7bmjrhaitftm)</p><p>[4.6.2](#_heading=h.9qsvjr9uw0uy)[	](#_heading=h.9qsvjr9uw0uy)[Software Architecture Context Diagram	6](#_heading=h.9qsvjr9uw0uy)</p><p>[4.6.3](#_heading=h.bhhi3v3lg76c)[	](#_heading=h.bhhi3v3lg76c)[Software Architecture Container Diagrams	6](#_heading=h.bhhi3v3lg76c)</p><p>[4.6.4](#_heading=h.6mhar39s7ieo)[	](#_heading=h.6mhar39s7ieo)[Software Architecture Component Diagrams	6](#_heading=h.6mhar39s7ieo)</p><p>[4.7](#_heading=h.2c7tnoucte9q)[	](#_heading=h.2c7tnoucte9q)[Software Object-Oriented Design	6](#_heading=h.2c7tnoucte9q)</p><p>[4.7.1](#_heading=h.nbmdm9mz8i1x)[	](#_heading=h.nbmdm9mz8i1x)[Class Diagrams	6](#_heading=h.nbmdm9mz8i1x)</p><p>[4.8](#_heading=h.gt5ce9a9u843)[	](#_heading=h.gt5ce9a9u843)[Database Design	6](#_heading=h.gt5ce9a9u843)</p><p>[4.8.1](#_heading=h.id6qkfacivqe)[	](#_heading=h.id6qkfacivqe)[Database Diagrams	6](#_heading=h.id6qkfacivqe)</p><p>[5.](#_heading=h.vs16l3cu2sa)[	](#_heading=h.vs16l3cu2sa)[Capítulo V: Product Implementation, Validation & Deployment	6](#_heading=h.vs16l3cu2sa)</p><p>[5.1](#_heading=h.rl921vfr5x5t)[	](#_heading=h.rl921vfr5x5t)[Software Configuration Management	6](#_heading=h.rl921vfr5x5t)</p><p>[5.1.1](#_heading=h.wciwa96dqhjz)[	](#_heading=h.wciwa96dqhjz)[Software Development Environment Configuration	6](#_heading=h.wciwa96dqhjz)</p><p>[5.1.2](#_heading=h.sxm29qydtv5w)[	](#_heading=h.sxm29qydtv5w)[Source Code Management	6](#_heading=h.sxm29qydtv5w)</p><p>[5.1.3](#_heading=h.entremi3v14m)[	](#_heading=h.entremi3v14m)[Source Code Style Guide & Conventions	7](#_heading=h.entremi3v14m)</p><p>[5.1.4](#_heading=h.ogohwao3lwy5)[	](#_heading=h.ogohwao3lwy5)[Software Deployment Configuration	7](#_heading=h.ogohwao3lwy5)</p><p>[5.2](#_heading=h.gahcrecuaroi)[	](#_heading=h.gahcrecuaroi)[Landing Page, Services & Applications Implementation	7](#_heading=h.gahcrecuaroi)</p><p>[Conclusiones	7](#_heading=h.43pqdzlh8r5j)</p><p>[Bibliografía	7](#_heading=h.rf3ije8prsh)</p><p>[Anexos](#_heading=h.gmdtiwg9ege6)</p>|
-|1\.1 Avn2|18/06/2026|<p>Luis German Tello Quispe</p><p></p><p>Luis Angel Cisneros</p><p></p><p>Alfaro Coveñas Louis Piero</p><p></p><p>Alison Jimena Arrieta Quispe</p>|<p>[5.2.3](#_heading=h.sprint3)[	](#_heading=h.sprint3)[Sprint 3	7](#_heading=h.sprint3)</p><p>[5.2.3.1](#_heading=h.sprint3planning)[	](#_heading=h.sprint3planning)[Sprint Planning 3	7](#_heading=h.sprint3planning)</p><p>[5.2.3.2](#_heading=h.sprint3team)[	](#_heading=h.sprint3team)[Aspect Leaders and Collaborators	7](#_heading=h.sprint3team)</p><p>[5.2.3.3](#_heading=h.sprint3backlog)[	](#_heading=h.sprint3backlog)[Sprint Backlog 3	7](#_heading=h.sprint3backlog)</p><p>[5.2.3.4](#_heading=h.sprint3dev)[	](#_heading=h.sprint3dev)[Development Evidence for Sprint Review	7](#_heading=h.sprint3dev)</p><p>[5.2.3.5](#_heading=h.sprint3testing)[	](#_heading=h.sprint3testing)[Testing Suite Evidence for Sprint Review	7](#_heading=h.sprint3testing)</p><p>[5.2.3.6](#_heading=h.sprint3services)[	](#_heading=h.sprint3services)[Services Documentation Evidence for Sprint Review	7](#_heading=h.sprint3services)</p><p>[5.2.3.7](#_heading=h.sprint3deploy)[	](#_heading=h.sprint3deploy)[Software Deployment Evidence for Sprint Review	7](#_heading=h.sprint3deploy)</p><p>[5.2.3.8](#_heading=h.sprint3team2)[	](#_heading=h.sprint3team2)[Team Collaboration Insights during Sprint	7](#_heading=h.sprint3team2)</p></p>|
 
 # <a name="_heading=h.iqfc12at5bpt"></a>**Project Report Collaboration Insights**
 
-AV2: Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
-| Integrante | Tareas Designadas |
-| :- | :- |
-| Louis Piero Alfaro Coveñas | Implementé todo el Capítulo 2 y aporté para el diseño de base de datos y diagrama de clases. Además aporté con la Landing Page. Implementación del módulo de Authentication en el backend: endpoints POST /api/v1/authentication/sign-up y POST /api/v1/authentication/sign-in, con documentación en Swagger. |
-| Luis German Tello Quispe | Desarrollo del Capítulo 3 y los wireframes. Implementación del módulo de Products en el backend: endpoints GET, POST /api/v1/products, PATCH de stock y precio, GET y DELETE por ID, con documentación en Swagger. |
-| Luis Angel Cisneros Salas | Elaboración de los diagramas C4 (Context, Container y Component), entrevista del Segmento 1 y correcciones del Capítulo 2. Implementación del módulo de Orders en el backend: endpoints GET, POST /api/v1/orders, PATCH de estado y GET por ID, con documentación en Swagger. |
-| Alison Arrieta | Desarrollo del Capítulo 1, desarrollo de las épicas y user stories relacionadas. Implementación de los módulos de Users y Stores en el backend: endpoints de consulta de usuarios, registro y gestión de comercios, y calificaciones de tiendas (POST /api/v1/stores/{storeId}/ratings), con documentación en Swagger. |
-| | |
+El equipo de desarrollo esta trabajando en una organización de github 
+
+https://github.com/orgs/SmartNeighbor-OpenSource/repositories
+
+y los reportes en el repositorio
+https://github.com/SmartNeighbor-OpenSource/RouteStock-Report
+
+TB2: Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+## Integrante: Louis Piero Alfaro Coveñas
+
+**AV1:** Elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo la investigación inicial de competidores y el diseño preliminar de la base de datos.
+
+**TB1:** Implementación del Capítulo II completo, aporte en el diseño de base de datos, diagrama de clases y desarrollo del Landing Page. Documentación e implementación de la Web Application de RouteStock en Angular, incluyendo vistas principales y configuración de la fake API.
+
+**AV2:** Liderazgo en el diseño del RESTful API (RESTful API Design), definiendo la estructura de endpoints para autenticación, usuarios, comercios, productos y pedidos. Redacción de 5.2.3.1 Sprint Planning 3 y 5.2.3.2 Aspect Leaders and Collaborators.
+
+**TB2:** Liderazgo en el dashboard de pedidos del comerciante (Merchant Order Dashboard), implementando la vista de pedidos entrantes y la acción de marcarlos como listos. Redacción de 5.2.4.6 Services Documentation Evidence.
+
+---
+
+## Integrante: Luis German Tello Quispe
+
+**AV1:** Elaboración del Capítulo III: Requirements Specification, incluyendo la redacción inicial de User Stories y el borrador del Product Backlog.
+
+**TB1:** Desarrollo del Capítulo III y elaboración de wireframes para Landing Page y Web Applications. Redacción de la sección Sprint 1 del informe, incluyendo Sprint Planning, Sprint Backlog, evidencias de desarrollo y despliegue del Landing Page.
+
+**AV2:** Liderazgo en el despliegue y configuración (Deployment & Config) del backend en Render y la Web Application en Netlify. Redacción de 5.2.3.7 Software Deployment Evidence y 5.2.3.8 Team Collaboration Insights.
+
+**TB2:** Liderazgo en despliegue y configuración (Deployment & Config) de la versión final en Netlify y Render. Redacción de 5.2.4.1 Sprint Planning 4 y 5.2.4.7 Software Deployment Evidence.
+
+---
+
+## Integrante: Luis Angel Cisneros Salas
+
+**AV1:** Elaboración del Capítulo IV: Product Design, incluyendo los primeros bocetos de arquitectura de software y diagramas iniciales.
+
+**TB1:** Elaboración de los diagramas C4 (Context, Container y Component), entrevista del Segmento 1 y correcciones del Capítulo II. Redacción de la sección Sprint 2 del informe, incluyendo Sprint Planning, Sprint Backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
+
+**AV2:** Liderazgo en base de datos y persistencia (Database & Persistence), configurando PostgreSQL como servicio en Render. Redacción de 5.2.3.3 Sprint Backlog 3 y 5.2.3.4 Development Evidence.
+
+**TB2:** Liderazgo en el backend de pedidos (Order/Cart Backend), implementando los endpoints de creación, listado y actualización de estado de pedidos. Redacción de 5.2.4.3 Sprint Backlog 4 y 5.2.4.4 Development Evidence.
+
+---
+
+## Integrante: Alison Jimena Arrieta Quispe
+
+**AV1:** Elaboración del Capítulo I: Introducción, incluyendo el Startup Profile, Solution Profile y la definición de los segmentos objetivo.
+
+**TB1:** Implementación del Capítulo I completo, realización de entrevistas del segmento objetivo 1, correcciones generales y creación de épicas y algunas User Stories. Redacción de conclusiones del informe y correcciones sobre artefactos previamente observados.
+
+**AV2:** Liderazgo en la implementación del backend (Backend Implementation) con Spring Boot, incluyendo los servicios de autenticación y CRUD de comercios/productos. Redacción de 5.2.3.5 Execution Evidence y 5.2.3.6 Services Documentation Evidence.
+
+**TB2:** Liderazgo en el frontend de carrito y checkout (Cart & Checkout Frontend), implementando el componente de carrito y el flujo de confirmación de compra. Redacción de 5.2.4.5 Execution Evidence.
 
 # <a name="_heading=h.nbg6pah72qg3"></a>**Student Outcome**
-El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 3 Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, correspondientes a los avances Avn1 y Avn2, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 4. Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4.
 
 
 
@@ -67,200 +122,119 @@ El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Stu
   <tbody>
     <!-- CRITERIO 1 -->
     <tr>
-      <td rowspan="4"><strong>Comunicación empática y analítica con usuarios y stakeholders</strong></td>
+      <td rowspan="4"><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
+        <!-- Student 1-->
         <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
         <strong>Avn1:</strong><br>
         Desarrollo íntegro del Capítulo II: Requirements Elicitation & Analysis. Esto incluyó el diseño, ejecución y análisis de entrevistas tanto a dueños de bodegas como a consumidores. Además, elaboré artefactos visuales de comunicación como Empathy Maps y User Journey Maps.<br><br>
+        <strong>TB1:</strong><br>
+        Participé en el video de exposición del TB1 demostrando y explicando las vistas implementadas de la Web Application de RouteStock, mostrando los flujos principales de navegación ante una audiencia técnica.<br><br>
         <strong>Avn2:</strong><br>
-        Implementé el módulo de Authentication en el backend de RouteStock, incluyendo los endpoints POST /api/v1/authentication/sign-up y POST /api/v1/authentication/sign-in, respondiendo a las necesidades identificadas en las entrevistas: los usuarios exigían un registro sencillo y diferenciado según su perfil (comerciante o consumidor).
-      </td>
-      <td>
-        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Se logró interpretar y traducir las necesidades reales y los "dolores" de los usuarios finales en requerimientos documentados claros. Esto demuestra la capacidad de adaptar la comunicación para interactuar con personas ajenas al desarrollo de software, extraer información valiosa y presentarla de forma comprensible para todo el equipo.<br><br>
-        <strong>Avn2:</strong><br>
-        La implementación del módulo de autenticación demostró la capacidad de traducir las necesidades de acceso diferenciado por perfil, identificadas en entrevistas, en endpoints funcionales y verificados mediante Swagger, comunicando el resultado técnico al equipo de forma clara.
-      </td>
-    </tr>
-    <tr>
-      <td>
+        Implementé el módulo de Authentication en el backend de RouteStock, incluyendo los endpoints POST /api/v1/authentication/sign-up y POST /api/v1/authentication/sign-in, respondiendo a las necesidades identificadas en las entrevistas: los usuarios exigían un registro sencillo y diferenciado según su perfil (comerciante o consumidor).<br><br>
+        <strong>TB2:</strong><br>
+        Participé en el video de exposición del TB2 demostrando el dashboard de pedidos del comerciante, explicando el flujo de gestión de pedidos entrantes ante la audiencia evaluadora.<br><br>
+        <!-- Student 2-->
         <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
         <strong>Avn1:</strong><br>
         Elaboré los diagramas de Software Architecture utilizando el modelo C4, incluyendo el Context Diagram, Container Diagram y Component Diagrams para el sistema RouteStock. Realicé entrevistas a representantes de ambos segmentos objetivo para la recolección de requisitos. Además, participé en las correcciones del Capítulo 2, mejorando la calidad y coherencia de los artefactos de UX Research.<br><br>
+        <strong>TB1:</strong><br>
+        Participé en el video de exposición del TB1 sustentando el avance del Sprint 2, explicando las decisiones de implementación del frontend y los endpoints de la fake API ante el equipo y evaluadores.<br><br>
         <strong>Avn2:</strong><br>
-        Implementé el módulo de Orders en el backend, exponiendo los endpoints GET /api/v1/orders, POST /api/v1/orders, PATCH /api/v1/orders/{orderId}/status y GET /api/v1/orders/{orderId}, cubriendo directamente la necesidad de gestión de pedidos identificada durante las entrevistas con consumidores.
-      </td>
-      <td>
-        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        La elaboración de los diagramas C4 me permitió comunicar de forma clara y estructurada la arquitectura del sistema a diferentes niveles de audiencia, desde una visión general del contexto hasta el detalle de los componentes internos. Las entrevistas que realicé contribuyeron a validar los requisitos identificados con usuarios reales de ambos segmentos.<br><br>
-        <strong>Avn2:</strong><br>
-        El desarrollo del módulo de Orders me permitió materializar el flujo de pedidos que los consumidores describieron durante las entrevistas, verificando con el equipo que los endpoints expuestos cubrieran los casos de uso reales: listar, crear y actualizar el estado de un pedido.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Redacción técnica del Capítulo 3: Especificación de User Stories, Impact Mapping y estructuración del Product Backlog.<br><br>
-        <strong>Avn2:</strong><br>
-        Implementé el módulo de Products en el backend, desarrollando los endpoints GET, POST /api/v1/products, PATCH /api/v1/products/{productId}/stock, PATCH /api/v1/products/{productId}/price, GET /api/v1/products/{productId} y DELETE /api/v1/products/{productId}, atendiendo la necesidad de gestión de inventario identificada en las entrevistas con comerciantes.
-      </td>
-      <td>
-        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Logré traducir las necesidades del negocio y de los usuarios, comerciantes y consumidores, en especificaciones técnicas claras, asegurando que tanto stakeholders como desarrolladores comprendan exactamente qué funcionalidades construir.<br><br>
-        <strong>Avn2:</strong><br>
-        La implementación del módulo de Products me permitió concretar las funcionalidades de inventario que los comerciantes demandaron en las entrevistas, validando con el equipo que cada operación (agregar, actualizar stock, actualizar precio, eliminar) respondiera a un caso de uso documentado en el Product Backlog.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Desarrollé el Capítulo I del proyecto, abordando el Solution Profile, antecedentes, problemática y aplicación del método 5W + 2H. Además, trabajé el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y la definición de los segmentos objetivo.<br><br>
-        <strong>Avn2:</strong><br>
-        Implementé los módulos de Users y Stores en el backend, exponiendo GET /api/v1/users, GET /api/v1/users/{userId}, GET /api/v1/stores, GET/PUT /api/v1/stores/{storeId}, POST /api/v1/stores y POST /api/v1/stores/{storeId}/ratings, respondiendo a la necesidad de visibilidad de comercios locales identificada en las entrevistas.
-      </td>
-      <td>
+        Implementé el módulo de Orders en el backend, exponiendo los endpoints GET /api/v1/orders, POST /api/v1/orders, PATCH /api/v1/orders/{orderId}/status y GET /api/v1/orders/{orderId}, cubriendo directamente la necesidad de gestión de pedidos identificada durante las entrevistas con consumidores.<br><br>
+        <strong>TB2:</strong><br>
+         Participé en el video de exposición del TB2 explicando la implementación de los endpoints de gestión de pedidos ante evaluadores técnicos.<br><br>
+        <!-- Student 3-->
         <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
         <strong>Avn1:</strong><br>
         Logré explicar la problemática del proyecto desde una perspectiva clara, empática y centrada en los usuarios, identificando las necesidades de comerciantes, vendedores ambulantes y consumidores.<br><br>
+        <strong>TB1:</strong><br>
+        Participé en el video de exposición del TB1 presentando las conclusiones del proyecto hasta esta entrega y las correcciones realizadas sobre artefactos anteriores.<br><br>
         <strong>Avn2:</strong><br>
-        La implementación de los módulos de Users y Stores cerró el ciclo entre las necesidades de visibilidad identificadas en las entrevistas y la solución técnica: los comerciantes pueden registrar su negocio y recibir calificaciones, y los consumidores pueden consultar el catálogo de tiendas disponibles.
+        La implementación de los módulos de Users y Stores cerró el ciclo entre las necesidades de visibilidad identificadas en las entrevistas y la solución técnica: los comerciantes pueden registrar su negocio y recibir calificaciones, y los consumidores pueden consultar el catálogo de tiendas disponibles.<br><br>
+        <strong>TB2:</strong><br>
+        Participé en el video de exposición del TB2 demostrando el flujo de carrito y checkout de la Web Application ante la audiencia evaluadora.<br><br>
+        <!-- Student 4-->
+        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
+        <strong>Avn1:</strong><br>
+        Redacción técnica del Capítulo 3: Especificación de User Stories, Impact Mapping y estructuración del Product Backlog.<br><br>
+        <strong>TB1:</strong><br>
+        Participé en el video de exposición del TB1 presentando el Sprint 1, explicando el proceso de planificación, los avances del Landing Page y las evidencias de colaboración del equipo.
+        <br><br>
+        <strong>Avn2:</strong><br>
+        Implementé el módulo de Products en el backend, desarrollando los endpoints GET, POST /api/v1/products, PATCH /api/v1/products/{productId}/stock, PATCH /api/v1/products/{productId}/price, GET /api/v1/products/{productId} y DELETE /api/v1/products/{productId}, atendiendo la necesidad de gestión de inventario identificada en las entrevistas con comerciantes.<br><br>
+        <strong>TB2:</strong><br>
+         Participé en el video de exposición del TB2 presentando el cierre del Sprint 4 y el despliegue final de los productos digitales de la solución.<br><br>
+      </td>
+      <td>
+        <!-- Conclusion-->
+        <br><br>
+        <strong>Avn1:</strong><br>
+        Se logró interpretar y traducir las necesidades reales y los "dolores" de los usuarios finales en requerimientos documentados claros. Esto demuestra la capacidad de adaptar la comunicación para interactuar con personas ajenas al desarrollo de software, extraer información valiosa y presentarla de forma comprensible para todo el equipo.<br><br>
+        <strong>TB1:</strong><br>
+        El equipo consolidó su capacidad de comunicación oral al sustentar el avance del ciclo de vida del producto, demostrando ante evaluadores técnicos el funcionamiento de los productos implementados y el proceso de trabajo colaborativo seguido durante los sprints.<br><br>
+        <strong>Avn2:</strong><br>
+        La implementación del módulo de autenticación demostró la capacidad de traducir las necesidades de acceso diferenciado por perfil, identificadas en entrevistas, en endpoints funcionales y verificados mediante Swagger, comunicando el resultado técnico al equipo de forma clara.<br><br>
+        <strong>TB2:</strong><br>
+         El equipo culminó el desarrollo de su capacidad de comunicación oral al sustentar el cierre completo del ciclo de vida del producto, demostrando ante la audiencia evaluadora el funcionamiento integral de RouteStock —desde el registro de usuarios hasta la gestión de pedidos entre comerciantes y consumidores— y comunicando con objetividad tanto los logros alcanzados como las limitaciones y el trabajo futuro identificado.
       </td>
     </tr>
     <!-- CRITERIO 2 -->
     <tr>
       <td rowspan="4"><strong>Comunicación técnica y arquitectónica</strong></td>
       <td>
+       <!-- Student 1-->
         <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
         <strong>Avn1:</strong><br>
         Aporte sustancial en el Capítulo IV (Product Design), específicamente en la formulación del diseño de base de datos y la estructuración del diagrama de clases.<br><br>
+        <strong>TB1:</strong><br>
+        Documenté en el informe la implementación de la Web Application de RouteStock, incluyendo las vistas desarrolladas en Angular, la configuración de la fake API y las evidencias de despliegue correspondientes al Sprint.<br><br>
         <strong>Avn2:</strong><br>
-        Diseñé e implementé los endpoints de autenticación siguiendo los lineamientos de arquitectura RESTful definidos para RouteStock Platform, documentando cada operación en Swagger con sus parámetros, respuestas y códigos de estado correspondientes.
-      </td>
-      <td>
-        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Al utilizar lenguajes de modelado estandarizados, como UML y diagramas entidad-relación, se logró comunicar la complejidad de la lógica de negocio y la arquitectura de la información.<br><br>
-        <strong>Avn2:</strong><br>
-        La documentación de los endpoints de autenticación en Swagger permitió que el equipo de frontend consumiera la API sin necesidad de explicaciones adicionales, demostrando la capacidad de comunicar decisiones técnicas mediante estándares reconocidos.
-      </td>
-    </tr>
-    <tr>
-      <td>
+        Diseñé e implementé los endpoints de autenticación siguiendo los lineamientos de arquitectura RESTful definidos para RouteStock Platform, documentando cada operación en Swagger con sus parámetros, respuestas y códigos de estado correspondientes.<br><br>
+        <strong>TB2:</strong><br>
+        Redacté la sección 5.2.4.6 Services Documentation Evidence, documentando los endpoints de gestión de pedidos y su integración con el dashboard de pedidos del comerciante.<br><br>
+        <!-- Student 2-->
         <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
         <strong>Avn1:</strong><br>
         Elaboré los diagramas de arquitectura de software bajo el modelo C4, desarrollando el Context Diagram, Container Diagram y Component Diagrams para el sistema RouteStock.<br><br>
+        <strong>TB1:</strong><br>
+        Redacté la sección 5.2.2 Sprint 2 del informe, documentando el Sprint Planning, el Sprint Backlog, las evidencias de desarrollo, despliegue y colaboración del equipo durante el segundo sprint.<br><br>
         <strong>Avn2:</strong><br>
-        Implementé el módulo de Orders respetando la separación por bounded contexts definida en BOUNDED_CONTEXTS.md del repositorio backend, asegurando que la lógica de pedidos esté aislada y correctamente expuesta a través de la API REST documentada en Swagger.
-      </td>
-      <td>
-        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        La elaboración de los diagramas C4 me permitió representar la arquitectura del sistema de forma clara y estandarizada, facilitando que todos los miembros del equipo comprendieran la estructura interna sin ambigüedades.<br><br>
-        <strong>Avn2:</strong><br>
-        El módulo de Orders implementado y documentado en Swagger facilitó la integración entre el backend y el equipo de frontend, ya que los contratos de cada endpoint estaban definidos con precisión antes de iniciar el consumo desde la Web Application.
-      </td>
-    </tr>
-    <tr>
-      <td>
+        Implementé el módulo de Orders respetando la separación por bounded contexts definida en BOUNDED_CONTEXTS.md del repositorio backend, asegurando que la lógica de pedidos esté aislada y correctamente expuesta a través de la API REST documentada en Swagger.<br><br>
+        <strong>TB2:</strong><br>
+         Redacté las secciones 5.2.4.3 Sprint Backlog 4 y 5.2.4.4 Development Evidence, documentando la implementación de los endpoints de creación, listado y actualización de estado de pedidos.<br><br>
+        <!-- Student 3-->
         <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
         <strong>Avn1:</strong><br>
         Diseño y elaboración de los Wireframes para el Landing Page y las Web Applications.<br><br>
+        <strong>TB1:</strong><br>
+         Redacté la sección 5.2.1 Sprint 1 del informe, documentando el proceso de planificación, las tareas realizadas, las evidencias de implementación del Landing Page y las métricas de colaboración del equipo.<br><br>
         <strong>Avn2:</strong><br>
-        Desarrollé el módulo de Products bajo el patrón de arquitectura en capas del backend Spring Boot con Gradle, exponiendo los endpoints de inventario con operaciones diferenciadas para stock y precio, documentándolos en Swagger UI accesible en localhost:8081.
-      </td>
-      <td>
-        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Pude representar la arquitectura de información y las reglas de negocio a través de esquemas visuales intuitivos, facilitando la comprensión del flujo de interacción del producto antes de su implementación en código.<br><br>
-        <strong>Avn2:</strong><br>
-        La implementación del módulo de Products con operaciones granulares de stock y precio demostró la capacidad de traducir las reglas de negocio del inventario en una API técnica coherente, verificable y documentada en Swagger.
-      </td>
-    </tr>
-    <tr>
-      <td>
+        Desarrollé el módulo de Products bajo el patrón de arquitectura en capas del backend Spring Boot con Gradle, exponiendo los endpoints de inventario con operaciones diferenciadas para stock y precio, documentándolos en Swagger UI accesible en localhost:8081.<br><br>
+        <strong>TB2:</strong><br>
+         Redacté las secciones 5.2.4.1 Sprint Planning 4 y 5.2.4.7 Software Deployment Evidence, documentando el objetivo del cuarto sprint y el despliegue final de los productos digitales.<br><br>
+        <!-- Student 4-->
         <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
         <strong>Avn1:</strong><br>
         Desarrollé la base conceptual y funcional del proyecto desde el Capítulo I, estructurando la problemática, los antecedentes, el análisis 5W + 2H, el Lean UX Canvas y las hipótesis principales de RouteStock.<br><br>
+        <strong>TB1:</strong><br>
+        Redacté las conclusiones del informe para la entrega TB1, sintetizando los resultados obtenidos hasta el momento, e implementé las correcciones sobre artefactos previamente observados, mejorando la calidad general del informe.<br><br>
         <strong>Avn2:</strong><br>
-        Implementé los módulos de Users y Stores siguiendo la arquitectura RESTful del sistema, incluyendo el endpoint de calificaciones de tiendas (POST /api/v1/stores/{storeId}/ratings), documentando cada operación en Swagger con sus esquemas de request/response.
+        Implementé los módulos de Users y Stores siguiendo la arquitectura RESTful del sistema, incluyendo el endpoint de calificaciones de tiendas (POST /api/v1/stores/{storeId}/ratings), documentando cada operación en Swagger con sus esquemas de request/response.<br><br>
+        <strong>TB2:</strong><br>
+         Redacté la sección 5.2.4.5 Execution Evidence, documentando la implementación del carrito de compras y el flujo de checkout de la Web Application.<br><br>
       </td>
       <td>
-        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
+        <!-- Conclusion 2-->
+        <br><br>
         <strong>Avn1:</strong><br>
-        Mi aporte permitió conectar el análisis inicial del problema con la estructura funcional del producto, estableciendo una base ordenada para que el equipo pueda comprender qué necesidades debía resolver RouteStock.<br><br>
+         El equipo evidenció capacidad para comunicar por escrito los resultados del proceso de ingeniería, elaborando un informe técnico estructurado que cubre desde el análisis de la problemática hasta el diseño de la solución.<br><br>
+        <strong>TB1:</strong><br>
+         El equipo consolidó su capacidad de comunicación escrita al documentar de forma detallada el proceso de implementación por sprints, las evidencias de colaboración y las correcciones realizadas, demostrando mejora continua en la calidad del informe técnico.<br><br>
         <strong>Avn2:</strong><br>
-        La implementación de los módulos de Users y Stores cerró la brecha entre el diseño de arquitectura y la solución ejecutable, aportando endpoints verificables en Swagger que el resto del equipo pudo integrar sin ambigüedades.
-      </td>
-    </tr>
-    <!-- CRITERIO 3 -->
-    <tr>
-      <td rowspan="4"><strong>Comunicación comercial y persuasiva</strong></td>
-      <td>
-        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Contribución directa en el diseño y desarrollo de la Landing Page del proyecto.<br><br>
-        <strong>Avn2:</strong><br>
-        El módulo de autenticación implementado (sign-up / sign-in) habilita el acceso diferenciado por perfil comerciante/consumidor, siendo la puerta de entrada al flujo comercial completo de RouteStock.
-      </td>
-      <td>
-        <strong>U20191b299 - Louis Piero Alfaro Coveñas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Se demostró la capacidad de simplificar el lenguaje técnico del proyecto y transformarlo en un mensaje comercial atractivo. La Landing Page comunica efectivamente la propuesta de valor de RouteStock.<br><br>
-        <strong>Avn2:</strong><br>
-        La implementación funcional de sign-up y sign-in confirmó que la propuesta de onboarding diferenciado por perfil es técnicamente viable, permitiendo comunicar al equipo y a stakeholders que la plataforma puede escalar hacia una base de usuarios segmentada desde su primera versión.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Participé en la definición del perfil de los segmentos objetivo y realicé entrevistas a usuarios de ambos segmentos, contribuyendo a identificar las necesidades reales del mercado para orientar la propuesta de valor de RouteStock.<br><br>
-        <strong>Avn2:</strong><br>
-        El módulo de Orders implementado materializa la propuesta de valor de RouteStock para el consumidor: permite colocar pedidos sobre productos de comercios locales, acercando la oferta del pequeño comercio a la demanda del usuario urbano de forma digital.
-      </td>
-      <td>
-        <strong>U20211B198 - Luis Angel Cisneros Salas</strong><br><br>
-        <strong>Avn1:</strong><br>
-        A través de las entrevistas que realicé pude validar la propuesta de valor de RouteStock con usuarios reales, confirmando la necesidad de una plataforma que digitalice los comercios locales.<br><br>
-        <strong>Avn2:</strong><br>
-        El módulo de Orders operativo demuestra que RouteStock puede sustentar un flujo de compra completo entre consumidores y comercios locales, lo cual fortalece la propuesta de valor ante futuros inversionistas o evaluadores del producto.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Sustentación de mi avance y defensa de los artefactos en el video de exposición de la entrega avn1.<br><br>
-        <strong>Avn2:</strong><br>
-        El módulo de Products implementado permite a los comerciantes gestionar su inventario (stock y precio) de forma digital, concretando la propuesta de valor de RouteStock para el segmento de bodegas y comercios locales.
-      </td>
-      <td>
-        <strong>U202317767 - Luis German Tello Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Logré adaptar mi lenguaje verbal para explicar la lógica detrás de los requerimientos y las decisiones de diseño UI, haciéndolo comprensible y directo para una audiencia de evaluadores técnicos y funcionales.<br><br>
-        <strong>Avn2:</strong><br>
-        La gestión digital de inventario implementada en el módulo de Products refuerza la propuesta comercial de RouteStock ante el segmento de comerciantes: ofrece una herramienta concreta para digitalizar su oferta, actualizar precios y controlar stock en tiempo real.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Desarrollé la presentación inicial del proyecto desde el Capítulo I, explicando la propuesta de SmartNeighbor y RouteStock. Además, contribuí en la formulación de épicas, algunas user stories y en el uso de información obtenida en entrevistas para reforzar la propuesta de valor del producto.<br><br>
-        <strong>Avn2:</strong><br>
-        La implementación de Stores con soporte de calificaciones (ratings) agrega un componente de confianza a la propuesta comercial de RouteStock: los consumidores pueden evaluar los comercios, generando un diferencial competitivo para la plataforma.
-      </td>
-      <td>
-        <strong>u202312031 - Alison Jimena Arrieta Quispe</strong><br><br>
-        <strong>Avn1:</strong><br>
-        Logré comunicar la propuesta de valor de RouteStock de manera clara y convincente, resaltando su importancia para digitalizar pequeños comercios y facilitar que los consumidores encuentren productos cercanos.<br><br>
-        <strong>Avn2:</strong><br>
-        La implementación de Stores con calificaciones agrega credibilidad a la propuesta comercial de RouteStock: un sistema de ratings operativo comunica a stakeholders que la plataforma considera mecanismos de confianza y reputación desde su primera versión del backend.
+         El equipo reforzó su capacidad de comunicación técnica escrita al documentar la implementación y despliegue del RESTful API, estructurando de forma clara los endpoints, la configuración de infraestructura en la nube y la integración entre frontend y backend, evidenciando dominio del vocabulario técnico propio de arquitecturas orientadas a servicios.<br><br>
+        <strong>TB2:</strong><br>
+         El equipo culminó el desarrollo de su capacidad de comunicación escrita al documentar de forma completa el cierre del ciclo de vida del producto, incluyendo la evolución del backend hacia funcionalidades de negocio más complejas (gestión de pedidos), sustentando con evidencias técnicas y trazabilidad de commits el trabajo colaborativo realizado a lo largo de las cuatro entregas.
       </td>
     </tr>
   </tbody>

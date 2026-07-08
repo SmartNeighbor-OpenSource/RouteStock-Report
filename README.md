@@ -1450,30 +1450,15 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 ## **5.4 Video About-the-Product**
 
 https://www.youtube.com/watch?v=PtSfIYloAsI
+## Conclusiones
 
-# **Conclusiones**
+El desarrollo de RouteStock ha permitido validar que la baja digitalización de bodegas y la dificultad de los consumidores para encontrar productos cercanos son problemas reales que pueden resolverse mediante una plataforma tecnológica inclusiva y accesible. Las entrevistas de validación confirmaron las suposiciones iniciales (Assumptions), demostrando que los comerciantes locales ven un gran valor en una herramienta sencilla para mostrar su inventario sin requerir altas inversiones iniciales.
 
+Respecto a las hipótesis y criterios de éxito definidos en el proceso de Lean UX, las pruebas de usabilidad evidenciaron que la plataforma genera una experiencia de compra eficiente. Los consumidores lograron completar flujos críticos, como la búsqueda de productos cercanos, la gestión del carrito y el proceso de checkout, calificando la experiencia como altamente intuitiva y rápida. Por el lado de los comerciantes, el registro del negocio y la gestión de pedidos entrantes resultaron viables, obteniendo calificaciones de facilidad de uso de entre 4 y 5 sobre 5.
 
-RouteStock fue desarrollado como respuesta a una problemática real del contexto peruano: la baja digitalización de bodegas, pequeños comercios locales y vendedores ambulantes, junto con la dificultad de los consumidores para encontrar productos cercanos de manera rápida y confiable. A lo largo del proyecto, el equipo identificó las necesidades de ambos segmentos (comerciantes y consumidores) y construyó una plataforma funcional que responde directamente a esos problemas mediante código desplegado y verificado, no únicamente mediante una propuesta de diseño.
+A pesar de estos resultados positivos, el contraste con las validaciones reveló oportunidades de mejora y fricciones que no se habían anticipado. Los comerciantes identificaron que el ingreso manual de la dirección durante el registro representa una carga innecesaria, prefiriendo una detección de ubicación exacta y automática. Asimismo, las evaluaciones heurísticas señalaron la necesidad de enriquecer el diseño visual minimalista para transmitir un mayor nivel de profesionalismo en la Web Application.
 
-A la fecha de cierre del proyecto, la Web Application de RouteStock implementa y tiene operativas las siguientes funcionalidades, validadas mediante pruebas manuales sobre el sistema desplegado:
-
-- Registro e inicio de sesión diferenciado por tipo de perfil (comerciante o consumidor), con persistencia de sesión entre recargas.
-- Registro de comercios por parte del usuario comerciante, incluyendo tipo de negocio, dirección, descripción y ubicación geográfica.
-- Gestión completa del inventario del comerciante: creación, edición y eliminación de productos asociados a su comercio.
-- Búsqueda de productos por nombre y categoría, con resultados en tiempo real sobre el catálogo disponible.
-- Visualización pública del detalle de un comercio y sus productos, accesible para cualquier usuario consumidor autenticado.
-- Carrito de compras multi-comercio, con control de cantidades según el stock disponible y confirmación de compra que actualiza el inventario real de cada producto.
-- Visualización del perfil del usuario autenticado con su información de cuenta.
-- Servicios backend (fake API) que soportan el registro de usuarios, listado de comercios y listado de productos, consumidos directamente por la aplicación.
-
-Estas funcionalidades fueron verificadas de manera incremental durante el desarrollo, identificando y corrigiendo errores de integración entre el frontend y los datos del backend simulado, lo cual permitió cerrar el proyecto con un flujo de extremo a extremo operativo: desde el registro de un usuario hasta la confirmación de una compra con descuento real de stock.
-
-Quedan fuera del alcance entregado, y se identifican como trabajo futuro, las siguientes funcionalidades que formaban parte de la visión inicial del producto: sistema de calificaciones de comercios, contacto directo entre consumidores y comerciantes, gestión de tipo de entrega (delivery o recojo), despliegue de un backend real (RESTful API propia en lugar de la fake API), y la validación formal del producto mediante entrevistas a usuarios, la cual no se llegó a ejecutar durante el periodo de desarrollo.
-
-El uso de herramientas como Lean UX, User Personas, User Journey Mapping, Empathy Mapping, Event Storming, User Stories y Product Backlog permitió organizar el proyecto de forma centrada en el usuario durante la etapa de diseño. Esa base conceptual se tradujo en una implementación funcional concreta, cuya cobertura real frente al alcance planificado se documenta en el presente informe.
-
-En conclusión, RouteStock entrega una primera versión funcional y verificable de la plataforma, que cubre el flujo principal de registro, gestión de inventario, búsqueda y compra entre comerciantes y consumidores. Las funcionalidades pendientes quedan claramente delimitadas como trabajo futuro, distinguiendo lo efectivamente construido y probado de lo que aún corresponde a la visión extendida del producto.
+Como recomendaciones para los siguientes pasos en el Roadmap de los productos digitales, es prioritario integrar una API de geolocalización (como Google Maps) para automatizar el registro de la ubicación de los comercios. Adicionalmente, se debe completar la visión inicial del producto desarrollando las funcionalidades identificadas como trabajo futuro. Estas incluyen la implementación de un sistema de calificaciones y reseñas de comercios, un módulo de contacto directo y mensajería entre consumidores y comerciantes, y la gestión consolidada de los tipos de entrega.
 
 # **Bibliografía**
 
